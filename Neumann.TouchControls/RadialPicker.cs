@@ -234,6 +234,10 @@ namespace Neumann.TouchControls
 
         protected override void OnPointerReleased(PointerRoutedEventArgs e)
         {
+            if (e.OriginalSource is Image || e.OriginalSource is RadialImageButton)
+                return;
+            var pos = e.GetCurrentPoint(this).Position;
+            this.Value = this.CalculateValue(pos);
             VisualStateManager.GoToState(this, "MouseLeave", false);
             this.OnClick();
         }

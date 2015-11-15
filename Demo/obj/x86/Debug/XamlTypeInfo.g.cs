@@ -731,12 +731,12 @@ namespace Demo.Demo_XamlTypeInfo
                 userType.Activator = Activate_44_RadialPicker;
                 userType.AddMemberName("Minimum");
                 userType.AddMemberName("Maximum");
-                userType.AddMemberName("Value");
                 userType.AddMemberName("Distance");
+                userType.AddMemberName("Value");
                 userType.AddMemberName("AcceptOnlyStepValues");
-                userType.AddMemberName("OpenWhenLoaded");
                 userType.AddMemberName("StartAngle");
                 userType.AddMemberName("EndAngle");
+                userType.AddMemberName("OpenWhenLoaded");
                 xamlType = userType;
                 break;
 
@@ -1414,25 +1414,25 @@ namespace Demo.Demo_XamlTypeInfo
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             that.Maximum = (global::System.Int32)Value;
         }
-        private object get_49_RadialPicker_Value(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.Value;
-        }
-        private void set_49_RadialPicker_Value(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.Value = (global::System.Int32)Value;
-        }
-        private object get_50_RadialPicker_Distance(object instance)
+        private object get_49_RadialPicker_Distance(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             return that.Distance;
         }
-        private void set_50_RadialPicker_Distance(object instance, object Value)
+        private void set_49_RadialPicker_Distance(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             that.Distance = (global::System.Int32)Value;
+        }
+        private object get_50_RadialPicker_Value(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.Value;
+        }
+        private void set_50_RadialPicker_Value(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.Value = (global::System.Int32)Value;
         }
         private object get_51_RadialPicker_AcceptOnlyStepValues(object instance)
         {
@@ -1444,35 +1444,35 @@ namespace Demo.Demo_XamlTypeInfo
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             that.AcceptOnlyStepValues = (global::System.Boolean)Value;
         }
-        private object get_52_RadialPicker_OpenWhenLoaded(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.OpenWhenLoaded;
-        }
-        private void set_52_RadialPicker_OpenWhenLoaded(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.OpenWhenLoaded = (global::System.Boolean)Value;
-        }
-        private object get_53_RadialPicker_StartAngle(object instance)
+        private object get_52_RadialPicker_StartAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             return that.StartAngle;
         }
-        private void set_53_RadialPicker_StartAngle(object instance, object Value)
+        private void set_52_RadialPicker_StartAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             that.StartAngle = (global::System.Double)Value;
         }
-        private object get_54_RadialPicker_EndAngle(object instance)
+        private object get_53_RadialPicker_EndAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             return that.EndAngle;
         }
-        private void set_54_RadialPicker_EndAngle(object instance, object Value)
+        private void set_53_RadialPicker_EndAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPicker)instance;
             that.EndAngle = (global::System.Double)Value;
+        }
+        private object get_54_RadialPicker_OpenWhenLoaded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.OpenWhenLoaded;
+        }
+        private void set_54_RadialPicker_OpenWhenLoaded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.OpenWhenLoaded = (global::System.Boolean)Value;
         }
         private object get_55_RadialPresenterViewModel_SelectionCommand(object instance)
         {
@@ -2122,19 +2122,19 @@ namespace Demo.Demo_XamlTypeInfo
                 xamlMember.Getter = get_48_RadialPicker_Maximum;
                 xamlMember.Setter = set_48_RadialPicker_Maximum;
                 break;
-            case "Neumann.TouchControls.RadialPicker.Value":
-                userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
-                xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "Value", "Int32");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_RadialPicker_Value;
-                xamlMember.Setter = set_49_RadialPicker_Value;
-                break;
             case "Neumann.TouchControls.RadialPicker.Distance":
                 userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "Distance", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_RadialPicker_Distance;
-                xamlMember.Setter = set_50_RadialPicker_Distance;
+                xamlMember.Getter = get_49_RadialPicker_Distance;
+                xamlMember.Setter = set_49_RadialPicker_Distance;
+                break;
+            case "Neumann.TouchControls.RadialPicker.Value":
+                userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
+                xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "Value", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_RadialPicker_Value;
+                xamlMember.Setter = set_50_RadialPicker_Value;
                 break;
             case "Neumann.TouchControls.RadialPicker.AcceptOnlyStepValues":
                 userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
@@ -2143,26 +2143,26 @@ namespace Demo.Demo_XamlTypeInfo
                 xamlMember.Getter = get_51_RadialPicker_AcceptOnlyStepValues;
                 xamlMember.Setter = set_51_RadialPicker_AcceptOnlyStepValues;
                 break;
-            case "Neumann.TouchControls.RadialPicker.OpenWhenLoaded":
-                userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
-                xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "OpenWhenLoaded", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_RadialPicker_OpenWhenLoaded;
-                xamlMember.Setter = set_52_RadialPicker_OpenWhenLoaded;
-                break;
             case "Neumann.TouchControls.RadialPicker.StartAngle":
                 userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_RadialPicker_StartAngle;
-                xamlMember.Setter = set_53_RadialPicker_StartAngle;
+                xamlMember.Getter = get_52_RadialPicker_StartAngle;
+                xamlMember.Setter = set_52_RadialPicker_StartAngle;
                 break;
             case "Neumann.TouchControls.RadialPicker.EndAngle":
                 userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_RadialPicker_EndAngle;
-                xamlMember.Setter = set_54_RadialPicker_EndAngle;
+                xamlMember.Getter = get_53_RadialPicker_EndAngle;
+                xamlMember.Setter = set_53_RadialPicker_EndAngle;
+                break;
+            case "Neumann.TouchControls.RadialPicker.OpenWhenLoaded":
+                userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
+                xamlMember = new global::Demo.Demo_XamlTypeInfo.XamlMember(this, "OpenWhenLoaded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_54_RadialPicker_OpenWhenLoaded;
+                xamlMember.Setter = set_54_RadialPicker_OpenWhenLoaded;
                 break;
             case "Demo.ViewModels.RadialPresenterViewModel.SelectionCommand":
                 userType = (global::Demo.Demo_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Demo.ViewModels.RadialPresenterViewModel");

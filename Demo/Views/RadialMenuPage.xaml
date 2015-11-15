@@ -20,10 +20,15 @@
 
         <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="RADIAL MENU" Style="{StaticResource HeaderTextBlockStyle}"/>
 
-        <ctl:RadialMenu Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False">
-            <ctl:RadialMenuItem Header="Bild" ImageSource="ms-appx:///Images/Picture.png" Click="RadialMenuItem_Click"/>
-            <ctl:RadialMenuItem Header="Tabelle" ImageSource="ms-appx:///Images/Table.png" Click="RadialMenuItem_Click"/>
-            <ctl:RadialMenuItem Header="Liste" ImageSource="ms-appx:///Images/List.png" Click="RadialMenuItem_Click">
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Text:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Text="{Binding ElementName=radialPicker, Path=Value, Mode=TwoWay}" Width="80" VerticalAlignment="Center"/>
+        </StackPanel>
+        
+        <ctl:RadialMenu Grid.Row="1" Grid.Column="1" Margin="200,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False">
+            <ctl:RadialMenuItem Header="Picture" ImageSource="ms-appx:///Images/Picture.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Table" ImageSource="ms-appx:///Images/Table.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="List" ImageSource="ms-appx:///Images/List.png" Click="RadialMenuItem_Click">
                 <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List1.png" Click="RadialMenuItem_Click"/>
                 <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List2.png" Click="RadialMenuItem_Click"/>
                 <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List3.png" Click="RadialMenuItem_Click"/>
@@ -33,23 +38,23 @@
                 <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List7.png" Click="RadialMenuItem_Click"/>
                 <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List8.png" Click="RadialMenuItem_Click"/>
             </ctl:RadialMenuItem>
-            <ctl:RadialMenuItem Header="Einfügen" ImageSource="ms-appx:///Images/Paste.png" IsEnabled="False" Click="RadialMenuItem_Click"/>
-            <ctl:RadialMenuItem Header="Markieren" ImageSource="ms-appx:///Images/Mark.png" Click="RadialMenuItem_Click">
-                <ctl:RadialMenuItem Header="Kritisch" ImageSource="ms-appx:///Images/Critical.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Kontakt" ImageSource="ms-appx:///Images/Contact.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Adresse" ImageSource="ms-appx:///Images/Address.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Telefon-nummer" ImageSource="ms-appx:///Images/Phone.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Kategorie entfernen" ImageSource="ms-appx:///Images/Delete.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Aufgabe" ImageSource="ms-appx:///Images/Task.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Wichtig" ImageSource="ms-appx:///Images/Important.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Frage" ImageSource="ms-appx:///Images/Question.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Paste" ImageSource="ms-appx:///Images/Paste.png" IsEnabled="False" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Mark" ImageSource="ms-appx:///Images/Mark.png" Click="RadialMenuItem_Click">
+                <ctl:RadialMenuItem Header="Critical" ImageSource="ms-appx:///Images/Critical.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Contact" ImageSource="ms-appx:///Images/Contact.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Address" ImageSource="ms-appx:///Images/Address.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Phone" ImageSource="ms-appx:///Images/Phone.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Remove" ImageSource="ms-appx:///Images/Delete.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Task" ImageSource="ms-appx:///Images/Task.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Important" ImageSource="ms-appx:///Images/Important.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Question" ImageSource="ms-appx:///Images/Question.png" Click="RadialMenuItem_Click"/>
             </ctl:RadialMenuItem>
-            <ctl:RadialMenuItem Header="Rückgängig" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click">
-                <ctl:RadialMenuItem Header="Wiederholen" ImageSource="ms-appx:///Images/Redo.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Rückgängig" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click"/>
-                <ctl:RadialMenuItem Header="Format entfernen" ImageSource="ms-appx:///Images/RemoveFormat.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Undo" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click">
+                <ctl:RadialMenuItem Header="Redo" ImageSource="ms-appx:///Images/Redo.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Undo" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Remove Format" ImageSource="ms-appx:///Images/RemoveFormat.png" Click="RadialMenuItem_Click"/>
             </ctl:RadialMenuItem>
-            <ctl:RadialMenuItem Header="Zeichnen" ImageSource="ms-appx:///Images/Draw.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Drawing" ImageSource="ms-appx:///Images/Draw.png" Click="RadialMenuItem_Click"/>
         </ctl:RadialMenu>
 
     </Grid>

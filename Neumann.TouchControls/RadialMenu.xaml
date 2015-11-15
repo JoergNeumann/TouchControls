@@ -13,7 +13,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="local:RadialMenu">
                     <Grid>
-                        <Grid x:Name="Container" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Grid x:Name="Container" IsHitTestVisible="False" RenderTransformOrigin="0.5,0.5" Opacity="0">
                             <Grid.RenderTransform>
                                 <RotateTransform x:Name="ContainerRenderTransform" Angle="-45"/>
                             </Grid.RenderTransform>
@@ -56,6 +56,11 @@
                                                 <SineEase EasingMode="EaseOut"/>
                                             </DoubleAnimation.EasingFunction>
                                         </DoubleAnimation>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Container"
+                                                                       Storyboard.TargetProperty="IsHitTestVisible"
+                                                                       Duration="0" EnableDependentAnimation="True">
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="true"/>
+                                        </ObjectAnimationUsingKeyFrames>
                                         <DoubleAnimation Storyboard.TargetName="Container"
 										                 Storyboard.TargetProperty="Opacity"
 										                 To="1" Duration="0:0:0.1" EnableDependentAnimation="True">
@@ -103,6 +108,11 @@
 
                                 <VisualState x:Name="Closed">
                                     <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Container"
+                                                                       Storyboard.TargetProperty="IsHitTestVisible"
+                                                                       Duration="0" EnableDependentAnimation="True">
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="false"/>
+                                        </ObjectAnimationUsingKeyFrames>
                                         <DoubleAnimation Storyboard.TargetName="Container"
 										                 Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)"
 										                 To="-45" Duration="0:0:0.3" EnableDependentAnimation="True">
