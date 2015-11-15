@@ -4,7 +4,7 @@
 
     <DataTemplate x:Key="LabelTemplate">
         <TextBlock Text="{Binding}"
-                   Foreground="#FF0D619B"
+                   Foreground="Purple"
                    FontFamily="Segoe UI"
                    FontSize="14"
                    FontWeight="Normal"/>
@@ -20,7 +20,7 @@
         <Setter Property="FontFamily" Value="Segue UI Semibold"/>
         <Setter Property="FontSize" Value="42"/>
         <Setter Property="Background" Value="White"/>
-        <Setter Property="Foreground" Value="#FFFF8533"/>
+        <Setter Property="Foreground" Value="Purple"/>
         <Setter Property="SelectionColor" Value="#717982"/>
         <Setter Property="BorderBrush" Value="#FFBFC5CC"/>
         <Setter Property="BorderThickness" Value="16"/>
@@ -42,7 +42,7 @@
                                          Fill="{TemplateBinding SelectionColor}"
                                          StartAngle="0"
                                          EndAngle="0"
-                                         Radius="86" />
+                                         Radius="85" />
                             
                             <Ellipse x:Name="InnerCircle"
                                      Width="145"
@@ -64,10 +64,10 @@
                             
                             <Canvas x:Name="Circle" Width="200" Height="200">
                                 <Rectangle x:Name="Slider"
-                                           Width="12"
+                                           Width="14"
                                            Height="30"
                                            Canvas.Left="94"
-                                           Canvas.Top="14"
+                                           Canvas.Top="-2"
                                            Stretch="Fill"
                                            Fill="{TemplateBinding Foreground}" />
                             </Canvas>

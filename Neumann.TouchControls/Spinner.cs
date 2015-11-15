@@ -188,7 +188,7 @@ namespace Neumann.TouchControls
                     {
                         _transform.Rotation = angle;
                     }
-                    _slice.EndAngle = _transform.Rotation - 2;
+                    _slice.EndAngle = _transform.Rotation;
 
                     if (_slice.EndAngle > 359)
                     {

@@ -34,7 +34,7 @@
         <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="FAN SELECTOR" Style="{StaticResource HeaderTextBlockStyle}"/>
 
         <ctl:FanSelector Grid.Row="1" Grid.Column="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"
-                         BorderThickness="0" Background="DarkSlateBlue" IsRotatingContent="False" DisplayMode="Half" IsOpen="True">
+                         BorderThickness="0" Background="Purple" IsRotatingContent="False" DisplayMode="Half" IsOpen="True">
             <ctl:FanSelector.Fans>
                 <ctl:FanCollection>
                     <ctl:FanControl Content="Item1" Background="#FF002060" Foreground="White" Click="OnFanClick"/>
