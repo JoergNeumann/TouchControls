@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neumann.TouchControls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialPicker.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/Arc.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialImageButton.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/HeaderedContentControl.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/BreadcrumbBullet.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/BreadcrumbBulletBar.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/ColumnView.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/ColumnViewSection.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialMenuExtensionButton.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialMenuItem.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialMenu.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialPresenter.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RadialPresenterItem.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/RangeSlider.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/FanControl.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/FanSelector.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/NumberPad.xaml"/>
+        <ResourceDictionary Source="ms-appx:///Neumann.TouchControls/Spinner.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

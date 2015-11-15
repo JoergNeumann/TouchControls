@@ -1,0 +1,85 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="using:Neumann.TouchControls">
+
+    <Style TargetType="local:FanControl">
+        <Setter Property="IsTabStop" Value="False"/>
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontFamily" Value="Segue UI Light"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="ContentStyle">
+            <Setter.Value>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontFamily" Value="Segue UI Light"/>
+                    <Setter Property="FontSize" Value="14"/>
+                    <Setter Property="FontWeight" Value="Normal"/>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:FanControl">
+                    <Grid x:Name="PART_RootGrid" Background="{x:Null}">
+                        
+                        <local:PieSlice StartAngle="{TemplateBinding StartAngle}"
+                                        EndAngle="{TemplateBinding EndAngle}"
+                                        Radius="{TemplateBinding Radius}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=BorderThickness.Left}"
+                                        Fill="{TemplateBinding Background}"
+                                        RenderTransformOrigin="1,1">
+                            <local:PieSlice.RenderTransform>
+                                <RotateTransform Angle="0"/>
+                            </local:PieSlice.RenderTransform>
+                        </local:PieSlice>
+
+                        <TextBlock x:Name="PART_Content"
+                                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   Text="{TemplateBinding Content}" 
+                                   RenderTransformOrigin="0.5,0.5"
+                                   TextAlignment="Center"
+                                   Style="{TemplateBinding ContentStyle}">
+                            <TextBlock.RenderTransform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="0"/>
+                                    <TranslateTransform X="0" Y="0"/>
+                                </TransformGroup>
+                            </TextBlock.RenderTransform>
+                        </TextBlock>
+                        
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="Button">
+                                <VisualState x:Name="PointerEnter">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="PART_RootGrid"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         To="0.7" Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="PART_RootGrid"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         To="1" Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="PointerPress">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="PART_RootGrid"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         To="0.9" Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+    </Style>
+    
+</ResourceDictionary>

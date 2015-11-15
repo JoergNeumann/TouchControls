@@ -1,0 +1,56 @@
+﻿<Page x:Class="Demo.Views.RadialMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Demo.Views"
+      xmlns:ctl="using:Neumann.TouchControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="RADIAL MENU" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <ctl:RadialMenu Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False">
+            <ctl:RadialMenuItem Header="Bild" ImageSource="ms-appx:///Images/Picture.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Tabelle" ImageSource="ms-appx:///Images/Table.png" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Liste" ImageSource="ms-appx:///Images/List.png" Click="RadialMenuItem_Click">
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List1.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List2.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List3.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List4.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List5.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List6.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List7.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="" ImageSource="ms-appx:///Images/List8.png" Click="RadialMenuItem_Click"/>
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem Header="Einfügen" ImageSource="ms-appx:///Images/Paste.png" IsEnabled="False" Click="RadialMenuItem_Click"/>
+            <ctl:RadialMenuItem Header="Markieren" ImageSource="ms-appx:///Images/Mark.png" Click="RadialMenuItem_Click">
+                <ctl:RadialMenuItem Header="Kritisch" ImageSource="ms-appx:///Images/Critical.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Kontakt" ImageSource="ms-appx:///Images/Contact.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Adresse" ImageSource="ms-appx:///Images/Address.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Telefon-nummer" ImageSource="ms-appx:///Images/Phone.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Kategorie entfernen" ImageSource="ms-appx:///Images/Delete.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Aufgabe" ImageSource="ms-appx:///Images/Task.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Wichtig" ImageSource="ms-appx:///Images/Important.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Frage" ImageSource="ms-appx:///Images/Question.png" Click="RadialMenuItem_Click"/>
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem Header="Rückgängig" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click">
+                <ctl:RadialMenuItem Header="Wiederholen" ImageSource="ms-appx:///Images/Redo.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Rückgängig" ImageSource="ms-appx:///Images/Undo.png" Click="RadialMenuItem_Click"/>
+                <ctl:RadialMenuItem Header="Format entfernen" ImageSource="ms-appx:///Images/RemoveFormat.png" Click="RadialMenuItem_Click"/>
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem Header="Zeichnen" ImageSource="ms-appx:///Images/Draw.png" Click="RadialMenuItem_Click"/>
+        </ctl:RadialMenu>
+
+    </Grid>
+</Page>
