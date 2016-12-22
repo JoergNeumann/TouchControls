@@ -10,7 +10,6 @@ namespace Neumann.TouchControls
         #region Private Fields
 
         private Panel _panel;
-        internal bool _isUpdating;
 
         #endregion
 

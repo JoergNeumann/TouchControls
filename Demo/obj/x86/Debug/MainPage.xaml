@@ -1,0 +1,123 @@
+﻿<Page x:Class="Demo.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="using:Demo.ViewModels"
+      xmlns:inf="using:Demo.Infrastructure"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+      MinHeight="400">
+
+    <Page.DataContext>
+        <vm:MainViewModel/>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <inf:UriToImageSourceConverter x:Key="imageConverter"/>
+        <inf:ToUpperConverter x:Key="ToUpperConverter"/>
+    </Page.Resources>
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <SplitView x:ConnectionId='1' x:Name="SplitView"
+                   IsPaneOpen="False"
+                   CompactPaneLength="40"
+                   OpenPaneLength="200"
+                   PaneBackground="DarkSlateGray"
+                   DisplayMode="Overlay">
+            <SplitView.Pane>
+                <Grid x:ConnectionId='3' x:Name="SplitViewPane"
+                      VerticalAlignment="Stretch"
+                      HorizontalAlignment="Stretch"
+                      ManipulationMode="TranslateX"
+                                                                                 
+                      Background="DarkSlateGray">
+                    
+                    <!-- Category List -->
+                    <ListView ItemsSource="{Binding CategoriesView}"
+                              Margin="0,40,0,0"
+                              VerticalAlignment="Top">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal"
+                                            Margin="0,4,0,10">
+                                    <Image Stretch="Uniform" Width="38" Height="38"
+                                           Source="{Binding Converter={StaticResource imageConverter}}"/>
+                                    <TextBlock Margin="8,0,0,0"
+                                               Foreground="White"
+                                               VerticalAlignment="Center"
+                                               Text="{Binding Converter={StaticResource ToUpperConverter}}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Samples Listbox -->
+                    <ListBox x:ConnectionId='4' x:Name="samplesListBox"
+                             Background="#FFC5DBEA"
+                             MaxWidth="220"
+                             ItemsSource="{Binding SamplesView}"
+                             FontSize="16"
+                             Padding="0"
+                             Margin="0,40,0,0"
+                             Foreground="#FF444444"
+                                                                         
+                             BorderThickness="0" ItemContainerStyle="{StaticResource SampleListBoxItemStyle}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name, Converter={StaticResource ToUpperConverter}}"
+                                           Margin="10"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    
+                    <!-- Navigation Frame -->
+                    <Frame x:ConnectionId='5' Grid.Column="1" x:Name="SplitViewFrame" Margin="0,40,0,0">
+                        <Frame.ContentTransitions>
+                            <TransitionCollection>
+                                <NavigationThemeTransition>
+                                    <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                        <EntranceNavigationTransitionInfo />
+                                    </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                </NavigationThemeTransition>
+                            </TransitionCollection>
+                        </Frame.ContentTransitions>
+                    </Frame>
+                    
+                    <!-- Touch Area -->
+                    <Grid x:ConnectionId='6' ManipulationMode="TranslateX"
+                                                                                       
+                          Width="20"
+                          Background="Transparent"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Stretch">
+                    </Grid>
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
+        
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" RequestedTheme="Dark" Background="DarkSlateGray">
+            <!-- Hamburger Menu -->
+            <Button x:ConnectionId='2' x:Name="HamburgerMenuButton"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;"
+                    Width="40"
+                    Height="40" Margin="0,-2,0,0"
+                    Background="Transparent"
+                    Foreground="White"
+                    VerticalAlignment="Center"
+                    BorderThickness="0"
+                                                      />
+            <!-- Current Title -->
+            <TextBlock Text="{Binding CategoriesView.CurrentItem, Converter={StaticResource ToUpperConverter}, FallbackValue=TOUCH CONTROLS DEMO}" Style="{StaticResource HeaderTextBlockStyle}" FontSize="26" Margin="0,0,0,5"/>
+        </StackPanel>
+        <TextBlock Text="Created by Jörg Neumann" Style="{StaticResource BodyTextBlockStyle}" Foreground="White" FontSize="12" Margin="0,12,10,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

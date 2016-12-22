@@ -1,0 +1,70 @@
+﻿<Page x:Class="Demo.Views.FilterBarPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="using:Demo.ViewModels"
+      xmlns:inf="using:Demo.Infrastructure"
+      xmlns:ctl="using:Neumann.TouchControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+    <Page.DataContext>
+        <vm:FilterBarViewModel/>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <inf:ToUpperConverter x:Key="UpperCaseConverter"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="FILTER BAR" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <ctl:FilterBar Grid.Row="1" Grid.Column="1" Margin="0,20,0,0" FontSize="20">
+            <ctl:FilterBarItem>
+                <ctl:FilterBarItem.Header>
+                    <TextBlock MinWidth="140" TextAlignment="Left">
+                        AMOUNT:&#160;<Run Text="{Binding ElementName=slider, Path=Value}"/>
+                    </TextBlock>
+                </ctl:FilterBarItem.Header>
+                <StackPanel>
+                    <TextBlock Text="Select amount!" FontSize="16"/>
+                    <Slider x:ConnectionId='3' x:Name="slider" Width="316" FontSize="16"
+                            Minimum="1" Maximum="100" Value="20" Style="{StaticResource SliderStyle1}"/>
+                </StackPanel>
+            </ctl:FilterBarItem>
+            <ctl:FilterBarItem>
+                <ctl:FilterBarItem.Header>
+                    <TextBlock MinWidth="140" TextAlignment="Left">
+                        RANGE:&#160;<Run Text="{Binding ElementName=slider2, Path=Value1}"/>-<Run Text="{Binding ElementName=slider2, Path=Value2}"/>
+                    </TextBlock>
+                </ctl:FilterBarItem.Header>
+                <StackPanel>
+                    <TextBlock Text="Select range!" FontSize="16"/>
+                    <ctl:RangeSlider x:ConnectionId='2' x:Name="slider2" Width="316" Margin="10,30" FontSize="16"
+                                        Minimum="1" Maximum="100" Value1="20" Value2="70"/>
+                </StackPanel>
+            </ctl:FilterBarItem>
+            <ctl:FilterBarItem>
+                <ctl:FilterBarItem.Header>
+                    <TextBlock MinWidth="140" TextAlignment="Left">
+                        YEAR:&#160;<Run Text="{Binding YearsView.CurrentItem}"/>
+                    </TextBlock>
+                </ctl:FilterBarItem.Header>
+                <ctl:ToggleButtonList x:ConnectionId='1' x:Name="ButtonList" FontSize="16"
+                                      ItemsSource="{Binding YearsView}"
+                                      ItemContainerStyle="{StaticResource FilterToggleButtonStyle}"/>
+            </ctl:FilterBarItem>
+        </ctl:FilterBar>
+    </Grid>
+</Page>
+

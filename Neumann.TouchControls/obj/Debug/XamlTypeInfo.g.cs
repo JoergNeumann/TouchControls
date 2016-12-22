@@ -133,7 +133,7 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[53];
+            _typeNameTable = new string[62];
             _typeNameTable[0] = "Neumann.TouchControls.Arc";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Control";
             _typeNameTable[2] = "Double";
@@ -150,45 +150,54 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
             _typeNameTable[13] = "Neumann.TouchControls.HeaderedContentControl";
             _typeNameTable[14] = "Windows.UI.Xaml.Controls.ContentControl";
             _typeNameTable[15] = "Windows.UI.Xaml.DataTemplate";
-            _typeNameTable[16] = "Neumann.TouchControls.FanControl";
-            _typeNameTable[17] = "Windows.UI.Xaml.Style";
+            _typeNameTable[16] = "Neumann.TouchControls.Expander";
+            _typeNameTable[17] = "Windows.UI.Xaml.Controls.ItemsControl";
             _typeNameTable[18] = "System.Windows.Input.ICommand";
-            _typeNameTable[19] = "Neumann.TouchControls.DisplayMode";
-            _typeNameTable[20] = "System.Enum";
-            _typeNameTable[21] = "System.ValueType";
-            _typeNameTable[22] = "Neumann.TouchControls.PieSlice";
-            _typeNameTable[23] = "Windows.UI.Xaml.Shapes.Path";
-            _typeNameTable[24] = "Neumann.TouchControls.FanSelector";
-            _typeNameTable[25] = "Neumann.TouchControls.FanCollection";
-            _typeNameTable[26] = "System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.FanControl>";
-            _typeNameTable[27] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.FanControl>";
-            _typeNameTable[28] = "Neumann.TouchControls.NumberPad";
-            _typeNameTable[29] = "String";
-            _typeNameTable[30] = "Windows.UI.Color";
-            _typeNameTable[31] = "Byte";
-            _typeNameTable[32] = "Neumann.TouchControls.RadialImageButton";
-            _typeNameTable[33] = "Windows.UI.Xaml.Media.ImageSource";
-            _typeNameTable[34] = "Neumann.TouchControls.RadialMenu";
-            _typeNameTable[35] = "Neumann.TouchControls.RadialMenuItemCollection";
-            _typeNameTable[36] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.RadialMenuItem>";
-            _typeNameTable[37] = "Neumann.TouchControls.RadialMenuItem";
-            _typeNameTable[38] = "Neumann.TouchControls.RadialMenuExtensionButton";
-            _typeNameTable[39] = "Neumann.TouchControls.RadialPicker";
-            _typeNameTable[40] = "Neumann.TouchControls.RadialPresenter";
-            _typeNameTable[41] = "Windows.UI.Xaml.Controls.ItemsControl";
-            _typeNameTable[42] = "Neumann.TouchControls.Topic";
-            _typeNameTable[43] = "Neumann.TouchControls.TopicCollection";
-            _typeNameTable[44] = "System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.Topic>";
-            _typeNameTable[45] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.Topic>";
-            _typeNameTable[46] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
-            _typeNameTable[47] = "Neumann.TouchControls.CircleItemsPanel";
-            _typeNameTable[48] = "Windows.UI.Xaml.Controls.Panel";
-            _typeNameTable[49] = "Neumann.TouchControls.RadialPresenterItem";
-            _typeNameTable[50] = "Windows.UI.Xaml.Media.PathGeometry";
-            _typeNameTable[51] = "Neumann.TouchControls.RangeSlider";
-            _typeNameTable[52] = "Neumann.TouchControls.Spinner";
+            _typeNameTable[19] = "Windows.UI.Xaml.Controls.Orientation";
+            _typeNameTable[20] = "Neumann.TouchControls.ExpanderItem";
+            _typeNameTable[21] = "Neumann.TouchControls.LayoutTransformer";
+            _typeNameTable[22] = "Windows.UI.Xaml.Media.Transform";
+            _typeNameTable[23] = "Neumann.TouchControls.FanControl";
+            _typeNameTable[24] = "Windows.UI.Xaml.Style";
+            _typeNameTable[25] = "Neumann.TouchControls.DisplayMode";
+            _typeNameTable[26] = "System.Enum";
+            _typeNameTable[27] = "System.ValueType";
+            _typeNameTable[28] = "Neumann.TouchControls.PieSlice";
+            _typeNameTable[29] = "Windows.UI.Xaml.Shapes.Path";
+            _typeNameTable[30] = "Neumann.TouchControls.FanSelector";
+            _typeNameTable[31] = "Neumann.TouchControls.FanCollection";
+            _typeNameTable[32] = "System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.FanControl>";
+            _typeNameTable[33] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.FanControl>";
+            _typeNameTable[34] = "Neumann.TouchControls.FilterBarItem";
+            _typeNameTable[35] = "Neumann.TouchControls.FilterBar";
+            _typeNameTable[36] = "Neumann.TouchControls.NumberPad";
+            _typeNameTable[37] = "String";
+            _typeNameTable[38] = "Neumann.TouchControls.RadialItemsControl";
+            _typeNameTable[39] = "Neumann.TouchControls.CircleItemsPanel";
+            _typeNameTable[40] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[41] = "Windows.UI.Color";
+            _typeNameTable[42] = "Byte";
+            _typeNameTable[43] = "Neumann.TouchControls.RadialImageButton";
+            _typeNameTable[44] = "Windows.UI.Xaml.Media.ImageSource";
+            _typeNameTable[45] = "Neumann.TouchControls.RadialMenu";
+            _typeNameTable[46] = "Neumann.TouchControls.RadialMenuItemCollection";
+            _typeNameTable[47] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.RadialMenuItem>";
+            _typeNameTable[48] = "Neumann.TouchControls.RadialMenuItem";
+            _typeNameTable[49] = "Neumann.TouchControls.RadialMenuExtensionButton";
+            _typeNameTable[50] = "Neumann.TouchControls.RadialPicker";
+            _typeNameTable[51] = "Neumann.TouchControls.RadialPresenter";
+            _typeNameTable[52] = "Neumann.TouchControls.Topic";
+            _typeNameTable[53] = "Neumann.TouchControls.TopicCollection";
+            _typeNameTable[54] = "System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.Topic>";
+            _typeNameTable[55] = "System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.Topic>";
+            _typeNameTable[56] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
+            _typeNameTable[57] = "Neumann.TouchControls.RadialPresenterItem";
+            _typeNameTable[58] = "Windows.UI.Xaml.Media.PathGeometry";
+            _typeNameTable[59] = "Neumann.TouchControls.RangeSlider";
+            _typeNameTable[60] = "Neumann.TouchControls.Spinner";
+            _typeNameTable[61] = "Neumann.TouchControls.ToggleButtonList";
 
-            _typeTable = new global::System.Type[53];
+            _typeTable = new global::System.Type[62];
             _typeTable[0] = typeof(global::Neumann.TouchControls.Arc);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Control);
             _typeTable[2] = typeof(global::System.Double);
@@ -205,43 +214,52 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
             _typeTable[13] = typeof(global::Neumann.TouchControls.HeaderedContentControl);
             _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
             _typeTable[15] = typeof(global::Windows.UI.Xaml.DataTemplate);
-            _typeTable[16] = typeof(global::Neumann.TouchControls.FanControl);
-            _typeTable[17] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[16] = typeof(global::Neumann.TouchControls.Expander);
+            _typeTable[17] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
             _typeTable[18] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[19] = typeof(global::Neumann.TouchControls.DisplayMode);
-            _typeTable[20] = typeof(global::System.Enum);
-            _typeTable[21] = typeof(global::System.ValueType);
-            _typeTable[22] = typeof(global::Neumann.TouchControls.PieSlice);
-            _typeTable[23] = typeof(global::Windows.UI.Xaml.Shapes.Path);
-            _typeTable[24] = typeof(global::Neumann.TouchControls.FanSelector);
-            _typeTable[25] = typeof(global::Neumann.TouchControls.FanCollection);
-            _typeTable[26] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.FanControl>);
-            _typeTable[27] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.FanControl>);
-            _typeTable[28] = typeof(global::Neumann.TouchControls.NumberPad);
-            _typeTable[29] = typeof(global::System.String);
-            _typeTable[30] = typeof(global::Windows.UI.Color);
-            _typeTable[31] = typeof(global::System.Byte);
-            _typeTable[32] = typeof(global::Neumann.TouchControls.RadialImageButton);
-            _typeTable[33] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
-            _typeTable[34] = typeof(global::Neumann.TouchControls.RadialMenu);
-            _typeTable[35] = typeof(global::Neumann.TouchControls.RadialMenuItemCollection);
-            _typeTable[36] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.RadialMenuItem>);
-            _typeTable[37] = typeof(global::Neumann.TouchControls.RadialMenuItem);
-            _typeTable[38] = typeof(global::Neumann.TouchControls.RadialMenuExtensionButton);
-            _typeTable[39] = typeof(global::Neumann.TouchControls.RadialPicker);
-            _typeTable[40] = typeof(global::Neumann.TouchControls.RadialPresenter);
-            _typeTable[41] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
-            _typeTable[42] = typeof(global::Neumann.TouchControls.Topic);
-            _typeTable[43] = typeof(global::Neumann.TouchControls.TopicCollection);
-            _typeTable[44] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.Topic>);
-            _typeTable[45] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.Topic>);
-            _typeTable[46] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
-            _typeTable[47] = typeof(global::Neumann.TouchControls.CircleItemsPanel);
-            _typeTable[48] = typeof(global::Windows.UI.Xaml.Controls.Panel);
-            _typeTable[49] = typeof(global::Neumann.TouchControls.RadialPresenterItem);
-            _typeTable[50] = typeof(global::Windows.UI.Xaml.Media.PathGeometry);
-            _typeTable[51] = typeof(global::Neumann.TouchControls.RangeSlider);
-            _typeTable[52] = typeof(global::Neumann.TouchControls.Spinner);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.Controls.Orientation);
+            _typeTable[20] = typeof(global::Neumann.TouchControls.ExpanderItem);
+            _typeTable[21] = typeof(global::Neumann.TouchControls.LayoutTransformer);
+            _typeTable[22] = typeof(global::Windows.UI.Xaml.Media.Transform);
+            _typeTable[23] = typeof(global::Neumann.TouchControls.FanControl);
+            _typeTable[24] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[25] = typeof(global::Neumann.TouchControls.DisplayMode);
+            _typeTable[26] = typeof(global::System.Enum);
+            _typeTable[27] = typeof(global::System.ValueType);
+            _typeTable[28] = typeof(global::Neumann.TouchControls.PieSlice);
+            _typeTable[29] = typeof(global::Windows.UI.Xaml.Shapes.Path);
+            _typeTable[30] = typeof(global::Neumann.TouchControls.FanSelector);
+            _typeTable[31] = typeof(global::Neumann.TouchControls.FanCollection);
+            _typeTable[32] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.FanControl>);
+            _typeTable[33] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.FanControl>);
+            _typeTable[34] = typeof(global::Neumann.TouchControls.FilterBarItem);
+            _typeTable[35] = typeof(global::Neumann.TouchControls.FilterBar);
+            _typeTable[36] = typeof(global::Neumann.TouchControls.NumberPad);
+            _typeTable[37] = typeof(global::System.String);
+            _typeTable[38] = typeof(global::Neumann.TouchControls.RadialItemsControl);
+            _typeTable[39] = typeof(global::Neumann.TouchControls.CircleItemsPanel);
+            _typeTable[40] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[41] = typeof(global::Windows.UI.Color);
+            _typeTable[42] = typeof(global::System.Byte);
+            _typeTable[43] = typeof(global::Neumann.TouchControls.RadialImageButton);
+            _typeTable[44] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
+            _typeTable[45] = typeof(global::Neumann.TouchControls.RadialMenu);
+            _typeTable[46] = typeof(global::Neumann.TouchControls.RadialMenuItemCollection);
+            _typeTable[47] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.RadialMenuItem>);
+            _typeTable[48] = typeof(global::Neumann.TouchControls.RadialMenuItem);
+            _typeTable[49] = typeof(global::Neumann.TouchControls.RadialMenuExtensionButton);
+            _typeTable[50] = typeof(global::Neumann.TouchControls.RadialPicker);
+            _typeTable[51] = typeof(global::Neumann.TouchControls.RadialPresenter);
+            _typeTable[52] = typeof(global::Neumann.TouchControls.Topic);
+            _typeTable[53] = typeof(global::Neumann.TouchControls.TopicCollection);
+            _typeTable[54] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.Topic>);
+            _typeTable[55] = typeof(global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.Topic>);
+            _typeTable[56] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
+            _typeTable[57] = typeof(global::Neumann.TouchControls.RadialPresenterItem);
+            _typeTable[58] = typeof(global::Windows.UI.Xaml.Media.PathGeometry);
+            _typeTable[59] = typeof(global::Neumann.TouchControls.RangeSlider);
+            _typeTable[60] = typeof(global::Neumann.TouchControls.Spinner);
+            _typeTable[61] = typeof(global::Neumann.TouchControls.ToggleButtonList);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -284,29 +302,36 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
         private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.ColumnViewSection>(); }
         private object Activate_12_ColumnViewSection() { return new global::Neumann.TouchControls.ColumnViewSection(); }
         private object Activate_13_HeaderedContentControl() { return new global::Neumann.TouchControls.HeaderedContentControl(); }
-        private object Activate_16_FanControl() { return new global::Neumann.TouchControls.FanControl(); }
-        private object Activate_22_PieSlice() { return new global::Neumann.TouchControls.PieSlice(); }
-        private object Activate_24_FanSelector() { return new global::Neumann.TouchControls.FanSelector(); }
-        private object Activate_25_FanCollection() { return new global::Neumann.TouchControls.FanCollection(); }
-        private object Activate_26_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.FanControl>(); }
-        private object Activate_27_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.FanControl>(); }
-        private object Activate_28_NumberPad() { return new global::Neumann.TouchControls.NumberPad(); }
-        private object Activate_32_RadialImageButton() { return new global::Neumann.TouchControls.RadialImageButton(); }
-        private object Activate_34_RadialMenu() { return new global::Neumann.TouchControls.RadialMenu(); }
-        private object Activate_35_RadialMenuItemCollection() { return new global::Neumann.TouchControls.RadialMenuItemCollection(); }
-        private object Activate_36_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.RadialMenuItem>(); }
-        private object Activate_37_RadialMenuItem() { return new global::Neumann.TouchControls.RadialMenuItem(); }
-        private object Activate_38_RadialMenuExtensionButton() { return new global::Neumann.TouchControls.RadialMenuExtensionButton(); }
-        private object Activate_39_RadialPicker() { return new global::Neumann.TouchControls.RadialPicker(); }
-        private object Activate_40_RadialPresenter() { return new global::Neumann.TouchControls.RadialPresenter(); }
-        private object Activate_42_Topic() { return new global::Neumann.TouchControls.Topic(); }
-        private object Activate_43_TopicCollection() { return new global::Neumann.TouchControls.TopicCollection(); }
-        private object Activate_44_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.Topic>(); }
-        private object Activate_45_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.Topic>(); }
-        private object Activate_47_CircleItemsPanel() { return new global::Neumann.TouchControls.CircleItemsPanel(); }
-        private object Activate_49_RadialPresenterItem() { return new global::Neumann.TouchControls.RadialPresenterItem(); }
-        private object Activate_51_RangeSlider() { return new global::Neumann.TouchControls.RangeSlider(); }
-        private object Activate_52_Spinner() { return new global::Neumann.TouchControls.Spinner(); }
+        private object Activate_16_Expander() { return new global::Neumann.TouchControls.Expander(); }
+        private object Activate_20_ExpanderItem() { return new global::Neumann.TouchControls.ExpanderItem(); }
+        private object Activate_21_LayoutTransformer() { return new global::Neumann.TouchControls.LayoutTransformer(); }
+        private object Activate_23_FanControl() { return new global::Neumann.TouchControls.FanControl(); }
+        private object Activate_28_PieSlice() { return new global::Neumann.TouchControls.PieSlice(); }
+        private object Activate_30_FanSelector() { return new global::Neumann.TouchControls.FanSelector(); }
+        private object Activate_31_FanCollection() { return new global::Neumann.TouchControls.FanCollection(); }
+        private object Activate_32_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.FanControl>(); }
+        private object Activate_33_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.FanControl>(); }
+        private object Activate_34_FilterBarItem() { return new global::Neumann.TouchControls.FilterBarItem(); }
+        private object Activate_35_FilterBar() { return new global::Neumann.TouchControls.FilterBar(); }
+        private object Activate_36_NumberPad() { return new global::Neumann.TouchControls.NumberPad(); }
+        private object Activate_38_RadialItemsControl() { return new global::Neumann.TouchControls.RadialItemsControl(); }
+        private object Activate_39_CircleItemsPanel() { return new global::Neumann.TouchControls.CircleItemsPanel(); }
+        private object Activate_43_RadialImageButton() { return new global::Neumann.TouchControls.RadialImageButton(); }
+        private object Activate_45_RadialMenu() { return new global::Neumann.TouchControls.RadialMenu(); }
+        private object Activate_46_RadialMenuItemCollection() { return new global::Neumann.TouchControls.RadialMenuItemCollection(); }
+        private object Activate_47_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.RadialMenuItem>(); }
+        private object Activate_48_RadialMenuItem() { return new global::Neumann.TouchControls.RadialMenuItem(); }
+        private object Activate_49_RadialMenuExtensionButton() { return new global::Neumann.TouchControls.RadialMenuExtensionButton(); }
+        private object Activate_50_RadialPicker() { return new global::Neumann.TouchControls.RadialPicker(); }
+        private object Activate_51_RadialPresenter() { return new global::Neumann.TouchControls.RadialPresenter(); }
+        private object Activate_52_Topic() { return new global::Neumann.TouchControls.Topic(); }
+        private object Activate_53_TopicCollection() { return new global::Neumann.TouchControls.TopicCollection(); }
+        private object Activate_54_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Neumann.TouchControls.Topic>(); }
+        private object Activate_55_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Neumann.TouchControls.Topic>(); }
+        private object Activate_57_RadialPresenterItem() { return new global::Neumann.TouchControls.RadialPresenterItem(); }
+        private object Activate_59_RangeSlider() { return new global::Neumann.TouchControls.RangeSlider(); }
+        private object Activate_60_Spinner() { return new global::Neumann.TouchControls.Spinner(); }
+        private object Activate_61_ToggleButtonList() { return new global::Neumann.TouchControls.ToggleButtonList(); }
         private void VectorAdd_9_ColumnViewSectionCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.ColumnViewSection>)instance;
@@ -319,49 +344,49 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
             var newItem = (global::Neumann.TouchControls.ColumnViewSection)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_25_FanCollection(object instance, object item)
+        private void VectorAdd_31_FanCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.FanControl>)instance;
             var newItem = (global::Neumann.TouchControls.FanControl)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_26_ObservableCollection(object instance, object item)
+        private void VectorAdd_32_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.FanControl>)instance;
             var newItem = (global::Neumann.TouchControls.FanControl)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_27_Collection(object instance, object item)
+        private void VectorAdd_33_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.FanControl>)instance;
             var newItem = (global::Neumann.TouchControls.FanControl)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_35_RadialMenuItemCollection(object instance, object item)
+        private void VectorAdd_46_RadialMenuItemCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.RadialMenuItem>)instance;
             var newItem = (global::Neumann.TouchControls.RadialMenuItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_36_Collection(object instance, object item)
+        private void VectorAdd_47_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.RadialMenuItem>)instance;
             var newItem = (global::Neumann.TouchControls.RadialMenuItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_43_TopicCollection(object instance, object item)
+        private void VectorAdd_53_TopicCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.Topic>)instance;
             var newItem = (global::Neumann.TouchControls.Topic)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_ObservableCollection(object instance, object item)
+        private void VectorAdd_54_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.Topic>)instance;
             var newItem = (global::Neumann.TouchControls.Topic)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_45_Collection(object instance, object item)
+        private void VectorAdd_55_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Neumann.TouchControls.Topic>)instance;
             var newItem = (global::Neumann.TouchControls.Topic)item;
@@ -485,9 +510,64 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Neumann.TouchControls.FanControl
+            case 16:   //  Neumann.TouchControls.Expander
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_16_Expander;
+                userType.AddMemberName("SelectedIndex");
+                userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("HeaderTemplateExpanded");
+                userType.AddMemberName("HeaderTemplateCollapsed");
+                userType.AddMemberName("Command");
+                userType.AddMemberName("CommandParameter");
+                userType.AddMemberName("Orientation");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  Windows.UI.Xaml.Controls.ItemsControl
+                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  System.Windows.Input.ICommand
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 19:   //  Windows.UI.Xaml.Controls.Orientation
+                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 20:   //  Neumann.TouchControls.ExpanderItem
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_16_FanControl;
+                userType.Activator = Activate_20_ExpanderItem;
+                userType.AddMemberName("HeaderTemplateCollapsed");
+                userType.AddMemberName("HeaderTemplateExpanded");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("IsExpanded");
+                userType.AddMemberName("Command");
+                userType.AddMemberName("CommandParameter");
+                userType.AddMemberName("Expander");
+                userType.AddMemberName("Orientation");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  Neumann.TouchControls.LayoutTransformer
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_21_LayoutTransformer;
+                userType.AddMemberName("LayoutTransform");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  Windows.UI.Xaml.Media.Transform
+                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  Neumann.TouchControls.FanControl
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_23_FanControl;
                 userType.AddMemberName("ContentStyle");
                 userType.AddMemberName("StartAngle");
                 userType.AddMemberName("EndAngle");
@@ -499,17 +579,11 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 17:   //  Windows.UI.Xaml.Style
+            case 24:   //  Windows.UI.Xaml.Style
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  System.Windows.Input.ICommand
-                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 19:   //  Neumann.TouchControls.DisplayMode
+            case 25:   //  Neumann.TouchControls.DisplayMode
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Quarter", global::Neumann.TouchControls.DisplayMode.Quarter);
                 userType.AddEnumValue("Half", global::Neumann.TouchControls.DisplayMode.Half);
@@ -518,19 +592,19 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  System.Enum
+            case 26:   //  System.Enum
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 21:   //  System.ValueType
+            case 27:   //  System.ValueType
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 22:   //  Neumann.TouchControls.PieSlice
+            case 28:   //  Neumann.TouchControls.PieSlice
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Shapes.Path"));
-                userType.Activator = Activate_22_PieSlice;
+                userType.Activator = Activate_28_PieSlice;
                 userType.AddMemberName("StartAngle");
                 userType.AddMemberName("EndAngle");
                 userType.AddMemberName("Radius");
@@ -538,13 +612,13 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 23:   //  Windows.UI.Xaml.Shapes.Path
+            case 29:   //  Windows.UI.Xaml.Shapes.Path
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  Neumann.TouchControls.FanSelector
+            case 30:   //  Neumann.TouchControls.FanSelector
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_24_FanSelector;
+                userType.Activator = Activate_30_FanSelector;
                 userType.AddMemberName("Fans");
                 userType.AddMemberName("ButtonStyle");
                 userType.AddMemberName("IsOpen");
@@ -554,31 +628,48 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  Neumann.TouchControls.FanCollection
+            case 31:   //  Neumann.TouchControls.FanCollection
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.FanControl>"));
-                userType.CollectionAdd = VectorAdd_25_FanCollection;
+                userType.CollectionAdd = VectorAdd_31_FanCollection;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 26:   //  System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.FanControl>
+            case 32:   //  System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.FanControl>
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.FanControl>"));
-                userType.Activator = Activate_26_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_26_ObservableCollection;
+                userType.Activator = Activate_32_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_32_ObservableCollection;
                 xamlType = userType;
                 break;
 
-            case 27:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.FanControl>
+            case 33:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.FanControl>
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_27_Collection;
-                userType.CollectionAdd = VectorAdd_27_Collection;
+                userType.Activator = Activate_33_Collection;
+                userType.CollectionAdd = VectorAdd_33_Collection;
                 xamlType = userType;
                 break;
 
-            case 28:   //  Neumann.TouchControls.NumberPad
+            case 34:   //  Neumann.TouchControls.FilterBarItem
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Neumann.TouchControls.HeaderedContentControl"));
+                userType.Activator = Activate_34_FilterBarItem;
+                userType.AddMemberName("FilterBar");
+                userType.AddMemberName("IsExpanded");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 35:   //  Neumann.TouchControls.FilterBar
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_35_FilterBar;
+                userType.AddMemberName("HeaderTemplate");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 36:   //  Neumann.TouchControls.NumberPad
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_28_NumberPad;
+                userType.Activator = Activate_36_NumberPad;
                 userType.AddMemberName("SubText");
                 userType.AddMemberName("SubTextTemplate");
                 userType.AddMemberName("Minimum");
@@ -589,11 +680,36 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  String
+            case 37:   //  String
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 30:   //  Windows.UI.Color
+            case 38:   //  Neumann.TouchControls.RadialItemsControl
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_38_RadialItemsControl;
+                userType.AddMemberName("LineStyle");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("ShowLines");
+                userType.AddMemberName("Radius");
+                userType.AddMemberName("Reset");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 39:   //  Neumann.TouchControls.CircleItemsPanel
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
+                userType.Activator = Activate_39_CircleItemsPanel;
+                userType.AddMemberName("Radius");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 40:   //  Windows.UI.Xaml.Controls.Panel
+                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 41:   //  Windows.UI.Color
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("A");
                 userType.AddMemberName("B");
@@ -602,27 +718,27 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 31:   //  Byte
+            case 42:   //  Byte
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Neumann.TouchControls.RadialImageButton
+            case 43:   //  Neumann.TouchControls.RadialImageButton
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_32_RadialImageButton;
+                userType.Activator = Activate_43_RadialImageButton;
                 userType.AddMemberName("ImageSource");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 33:   //  Windows.UI.Xaml.Media.ImageSource
+            case 44:   //  Windows.UI.Xaml.Media.ImageSource
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 34:   //  Neumann.TouchControls.RadialMenu
+            case 45:   //  Neumann.TouchControls.RadialMenu
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_34_RadialMenu;
+                userType.Activator = Activate_45_RadialMenu;
                 userType.SetContentPropertyName("Neumann.TouchControls.RadialMenu.Items");
                 userType.AddMemberName("Items");
                 userType.AddMemberName("ImageSource");
@@ -632,24 +748,24 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 35:   //  Neumann.TouchControls.RadialMenuItemCollection
+            case 46:   //  Neumann.TouchControls.RadialMenuItemCollection
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.RadialMenuItem>"));
-                userType.CollectionAdd = VectorAdd_35_RadialMenuItemCollection;
+                userType.CollectionAdd = VectorAdd_46_RadialMenuItemCollection;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.RadialMenuItem>
+            case 47:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.RadialMenuItem>
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_36_Collection;
-                userType.CollectionAdd = VectorAdd_36_Collection;
+                userType.Activator = Activate_47_Collection;
+                userType.CollectionAdd = VectorAdd_47_Collection;
                 xamlType = userType;
                 break;
 
-            case 37:   //  Neumann.TouchControls.RadialMenuItem
+            case 48:   //  Neumann.TouchControls.RadialMenuItem
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_37_RadialMenuItem;
+                userType.Activator = Activate_48_RadialMenuItem;
                 userType.SetContentPropertyName("Neumann.TouchControls.RadialMenuItem.Items");
                 userType.AddMemberName("Items");
                 userType.AddMemberName("ImageSource");
@@ -665,9 +781,9 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  Neumann.TouchControls.RadialMenuExtensionButton
+            case 49:   //  Neumann.TouchControls.RadialMenuExtensionButton
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_38_RadialMenuExtensionButton;
+                userType.Activator = Activate_49_RadialMenuExtensionButton;
                 userType.AddMemberName("Position");
                 userType.AddMemberName("StartAngle");
                 userType.AddMemberName("EndAngle");
@@ -677,9 +793,9 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 39:   //  Neumann.TouchControls.RadialPicker
+            case 50:   //  Neumann.TouchControls.RadialPicker
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_39_RadialPicker;
+                userType.Activator = Activate_50_RadialPicker;
                 userType.AddMemberName("Minimum");
                 userType.AddMemberName("Maximum");
                 userType.AddMemberName("Value");
@@ -692,9 +808,9 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Neumann.TouchControls.RadialPresenter
+            case 51:   //  Neumann.TouchControls.RadialPresenter
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_40_RadialPresenter;
+                userType.Activator = Activate_51_RadialPresenter;
                 userType.AddMemberName("StrokeThickness");
                 userType.AddMemberName("ImageSource");
                 userType.AddMemberName("IsOpen");
@@ -706,13 +822,9 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  Windows.UI.Xaml.Controls.ItemsControl
-                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 42:   //  Neumann.TouchControls.Topic
+            case 52:   //  Neumann.TouchControls.Topic
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_42_Topic;
+                userType.Activator = Activate_52_Topic;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Image");
                 userType.AddMemberName("ImagePathResourceName");
@@ -722,47 +834,35 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Neumann.TouchControls.TopicCollection
+            case 53:   //  Neumann.TouchControls.TopicCollection
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.Topic>"));
-                userType.CollectionAdd = VectorAdd_43_TopicCollection;
+                userType.CollectionAdd = VectorAdd_53_TopicCollection;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.Topic>
+            case 54:   //  System.Collections.ObjectModel.ObservableCollection`1<Neumann.TouchControls.Topic>
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.Topic>"));
-                userType.Activator = Activate_44_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_44_ObservableCollection;
+                userType.Activator = Activate_54_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_54_ObservableCollection;
                 xamlType = userType;
                 break;
 
-            case 45:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.Topic>
+            case 55:   //  System.Collections.ObjectModel.Collection`1<Neumann.TouchControls.Topic>
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_45_Collection;
-                userType.CollectionAdd = VectorAdd_45_Collection;
+                userType.Activator = Activate_55_Collection;
+                userType.CollectionAdd = VectorAdd_55_Collection;
                 xamlType = userType;
                 break;
 
-            case 46:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
+            case 56:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Neumann.TouchControls.CircleItemsPanel
-                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
-                userType.Activator = Activate_47_CircleItemsPanel;
-                userType.AddMemberName("Radius");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 48:   //  Windows.UI.Xaml.Controls.Panel
-                xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 49:   //  Neumann.TouchControls.RadialPresenterItem
+            case 57:   //  Neumann.TouchControls.RadialPresenterItem
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_49_RadialPresenterItem;
+                userType.Activator = Activate_57_RadialPresenterItem;
                 userType.AddMemberName("ImageSource");
                 userType.AddMemberName("ImagePathGeometry");
                 userType.AddMemberName("ImagePath");
@@ -773,13 +873,13 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 50:   //  Windows.UI.Xaml.Media.PathGeometry
+            case 58:   //  Windows.UI.Xaml.Media.PathGeometry
                 xamlType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 51:   //  Neumann.TouchControls.RangeSlider
+            case 59:   //  Neumann.TouchControls.RangeSlider
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_51_RangeSlider;
+                userType.Activator = Activate_59_RangeSlider;
                 userType.AddMemberName("Minimum");
                 userType.AddMemberName("Maximum");
                 userType.AddMemberName("Value1");
@@ -789,15 +889,23 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 52:   //  Neumann.TouchControls.Spinner
+            case 60:   //  Neumann.TouchControls.Spinner
                 userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_52_Spinner;
+                userType.Activator = Activate_60_Spinner;
                 userType.AddMemberName("Label");
                 userType.AddMemberName("LabelTemplate");
                 userType.AddMemberName("Minimum");
                 userType.AddMemberName("Maximum");
                 userType.AddMemberName("SelectionColor");
                 userType.AddMemberName("Value");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 61:   //  Neumann.TouchControls.ToggleButtonList
+                userType = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_61_ToggleButtonList;
+                userType.AddMemberName("SelectedItem");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -976,825 +1084,1080 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
             var that = (global::Neumann.TouchControls.ColumnView)instance;
             that.NormalizeColumnWidth = (global::System.Boolean)Value;
         }
-        private object get_17_FanControl_ContentStyle(object instance)
+        private object get_17_Expander_SelectedIndex(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.SelectedIndex;
+        }
+        private void set_17_Expander_SelectedIndex(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.SelectedIndex = (global::System.Int32)Value;
+        }
+        private object get_18_Expander_SelectedItem(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.SelectedItem;
+        }
+        private void set_18_Expander_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_19_Expander_HeaderTemplateExpanded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.HeaderTemplateExpanded;
+        }
+        private void set_19_Expander_HeaderTemplateExpanded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.HeaderTemplateExpanded = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_20_Expander_HeaderTemplateCollapsed(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.HeaderTemplateCollapsed;
+        }
+        private void set_20_Expander_HeaderTemplateCollapsed(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.HeaderTemplateCollapsed = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_21_Expander_Command(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.Command;
+        }
+        private void set_21_Expander_Command(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_22_Expander_CommandParameter(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.CommandParameter;
+        }
+        private void set_22_Expander_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_23_Expander_Orientation(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            return that.Orientation;
+        }
+        private void set_23_Expander_Orientation(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Expander)instance;
+            that.Orientation = (global::Windows.UI.Xaml.Controls.Orientation)Value;
+        }
+        private object get_24_ExpanderItem_HeaderTemplateCollapsed(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.HeaderTemplateCollapsed;
+        }
+        private void set_24_ExpanderItem_HeaderTemplateCollapsed(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.HeaderTemplateCollapsed = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_25_ExpanderItem_HeaderTemplateExpanded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.HeaderTemplateExpanded;
+        }
+        private void set_25_ExpanderItem_HeaderTemplateExpanded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.HeaderTemplateExpanded = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_26_ExpanderItem_Header(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.Header;
+        }
+        private void set_26_ExpanderItem_Header(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_27_ExpanderItem_IsExpanded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.IsExpanded;
+        }
+        private void set_27_ExpanderItem_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_28_ExpanderItem_Command(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.Command;
+        }
+        private void set_28_ExpanderItem_Command(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_29_ExpanderItem_CommandParameter(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.CommandParameter;
+        }
+        private void set_29_ExpanderItem_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_30_ExpanderItem_Expander(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.Expander;
+        }
+        private object get_31_ExpanderItem_Orientation(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            return that.Orientation;
+        }
+        private void set_31_ExpanderItem_Orientation(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ExpanderItem)instance;
+            that.Orientation = (global::Windows.UI.Xaml.Controls.Orientation)Value;
+        }
+        private object get_32_LayoutTransformer_LayoutTransform(object instance)
+        {
+            var that = (global::Neumann.TouchControls.LayoutTransformer)instance;
+            return that.LayoutTransform;
+        }
+        private void set_32_LayoutTransformer_LayoutTransform(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.LayoutTransformer)instance;
+            that.LayoutTransform = (global::Windows.UI.Xaml.Media.Transform)Value;
+        }
+        private object get_33_FanControl_ContentStyle(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.ContentStyle;
         }
-        private void set_17_FanControl_ContentStyle(object instance, object Value)
+        private void set_33_FanControl_ContentStyle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.ContentStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_18_FanControl_StartAngle(object instance)
+        private object get_34_FanControl_StartAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.StartAngle;
         }
-        private void set_18_FanControl_StartAngle(object instance, object Value)
+        private void set_34_FanControl_StartAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.StartAngle = (global::System.Double)Value;
         }
-        private object get_19_FanControl_EndAngle(object instance)
+        private object get_35_FanControl_EndAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.EndAngle;
         }
-        private void set_19_FanControl_EndAngle(object instance, object Value)
+        private void set_35_FanControl_EndAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.EndAngle = (global::System.Double)Value;
         }
-        private object get_20_FanControl_Radius(object instance)
+        private object get_36_FanControl_Radius(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.Radius;
         }
-        private void set_20_FanControl_Radius(object instance, object Value)
+        private void set_36_FanControl_Radius(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.Radius = (global::System.Double)Value;
         }
-        private object get_21_FanControl_Command(object instance)
+        private object get_37_FanControl_Command(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.Command;
         }
-        private void set_21_FanControl_Command(object instance, object Value)
+        private void set_37_FanControl_Command(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.Command = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_22_FanControl_DisplayMode(object instance)
+        private object get_38_FanControl_DisplayMode(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.DisplayMode;
         }
-        private void set_22_FanControl_DisplayMode(object instance, object Value)
+        private void set_38_FanControl_DisplayMode(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.DisplayMode = (global::Neumann.TouchControls.DisplayMode)Value;
         }
-        private object get_23_FanControl_IsRotatingContent(object instance)
+        private object get_39_FanControl_IsRotatingContent(object instance)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             return that.IsRotatingContent;
         }
-        private void set_23_FanControl_IsRotatingContent(object instance, object Value)
+        private void set_39_FanControl_IsRotatingContent(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanControl)instance;
             that.IsRotatingContent = (global::System.Boolean)Value;
         }
-        private object get_24_PieSlice_StartAngle(object instance)
+        private object get_40_PieSlice_StartAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             return that.StartAngle;
         }
-        private void set_24_PieSlice_StartAngle(object instance, object Value)
+        private void set_40_PieSlice_StartAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             that.StartAngle = (global::System.Double)Value;
         }
-        private object get_25_PieSlice_EndAngle(object instance)
+        private object get_41_PieSlice_EndAngle(object instance)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             return that.EndAngle;
         }
-        private void set_25_PieSlice_EndAngle(object instance, object Value)
+        private void set_41_PieSlice_EndAngle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             that.EndAngle = (global::System.Double)Value;
         }
-        private object get_26_PieSlice_Radius(object instance)
+        private object get_42_PieSlice_Radius(object instance)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             return that.Radius;
         }
-        private void set_26_PieSlice_Radius(object instance, object Value)
+        private void set_42_PieSlice_Radius(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.PieSlice)instance;
             that.Radius = (global::System.Double)Value;
         }
-        private object get_27_FanSelector_Fans(object instance)
+        private object get_43_FanSelector_Fans(object instance)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             return that.Fans;
         }
-        private void set_27_FanSelector_Fans(object instance, object Value)
+        private void set_43_FanSelector_Fans(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             that.Fans = (global::Neumann.TouchControls.FanCollection)Value;
         }
-        private object get_28_FanSelector_ButtonStyle(object instance)
+        private object get_44_FanSelector_ButtonStyle(object instance)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             return that.ButtonStyle;
         }
-        private void set_28_FanSelector_ButtonStyle(object instance, object Value)
+        private void set_44_FanSelector_ButtonStyle(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             that.ButtonStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_29_FanSelector_IsOpen(object instance)
+        private object get_45_FanSelector_IsOpen(object instance)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             return that.IsOpen;
         }
-        private void set_29_FanSelector_IsOpen(object instance, object Value)
+        private void set_45_FanSelector_IsOpen(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             that.IsOpen = (global::System.Boolean)Value;
         }
-        private object get_30_FanSelector_DisplayMode(object instance)
+        private object get_46_FanSelector_DisplayMode(object instance)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             return that.DisplayMode;
         }
-        private void set_30_FanSelector_DisplayMode(object instance, object Value)
+        private void set_46_FanSelector_DisplayMode(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             that.DisplayMode = (global::Neumann.TouchControls.DisplayMode)Value;
         }
-        private object get_31_FanSelector_IsRotatingContent(object instance)
+        private object get_47_FanSelector_IsRotatingContent(object instance)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             return that.IsRotatingContent;
         }
-        private void set_31_FanSelector_IsRotatingContent(object instance, object Value)
+        private void set_47_FanSelector_IsRotatingContent(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.FanSelector)instance;
             that.IsRotatingContent = (global::System.Boolean)Value;
         }
-        private object get_32_NumberPad_SubText(object instance)
+        private object get_48_FilterBarItem_FilterBar(object instance)
+        {
+            var that = (global::Neumann.TouchControls.FilterBarItem)instance;
+            return that.FilterBar;
+        }
+        private void set_48_FilterBarItem_FilterBar(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.FilterBarItem)instance;
+            that.FilterBar = (global::Neumann.TouchControls.FilterBar)Value;
+        }
+        private object get_49_FilterBarItem_IsExpanded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.FilterBarItem)instance;
+            return that.IsExpanded;
+        }
+        private void set_49_FilterBarItem_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.FilterBarItem)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_50_FilterBar_HeaderTemplate(object instance)
+        {
+            var that = (global::Neumann.TouchControls.FilterBar)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_50_FilterBar_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.FilterBar)instance;
+            that.HeaderTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_51_NumberPad_SubText(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.SubText;
         }
-        private void set_32_NumberPad_SubText(object instance, object Value)
+        private void set_51_NumberPad_SubText(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.SubText = (global::System.String)Value;
         }
-        private object get_33_NumberPad_SubTextTemplate(object instance)
+        private object get_52_NumberPad_SubTextTemplate(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.SubTextTemplate;
         }
-        private void set_33_NumberPad_SubTextTemplate(object instance, object Value)
+        private void set_52_NumberPad_SubTextTemplate(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.SubTextTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_34_NumberPad_Minimum(object instance)
+        private object get_53_NumberPad_Minimum(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.Minimum;
         }
-        private void set_34_NumberPad_Minimum(object instance, object Value)
+        private void set_53_NumberPad_Minimum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.Minimum = (global::System.Int32)Value;
         }
-        private object get_35_NumberPad_Maximum(object instance)
+        private object get_54_NumberPad_Maximum(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.Maximum;
         }
-        private void set_35_NumberPad_Maximum(object instance, object Value)
+        private void set_54_NumberPad_Maximum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.Maximum = (global::System.Int32)Value;
         }
-        private object get_36_NumberPad_PointerOverBrush(object instance)
+        private object get_55_NumberPad_PointerOverBrush(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.PointerOverBrush;
         }
-        private void set_36_NumberPad_PointerOverBrush(object instance, object Value)
+        private void set_55_NumberPad_PointerOverBrush(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.PointerOverBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_37_NumberPad_Value(object instance)
+        private object get_56_NumberPad_Value(object instance)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             return that.Value;
         }
-        private void set_37_NumberPad_Value(object instance, object Value)
+        private void set_56_NumberPad_Value(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.NumberPad)instance;
             that.Value = (global::System.Int32)Value;
         }
-        private object get_38_Color_A(object instance)
+        private object get_57_RadialItemsControl_LineStyle(object instance)
         {
-            var that = (global::Windows.UI.Color)instance;
-            return that.A;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            return that.LineStyle;
         }
-        private void set_38_Color_A(object instance, object Value)
+        private void set_57_RadialItemsControl_LineStyle(object instance, object Value)
         {
-            var that = (global::Windows.UI.Color)instance;
-            that.A = (global::System.Byte)Value;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.LineStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_39_Color_B(object instance)
+        private object get_58_RadialItemsControl_Header(object instance)
         {
-            var that = (global::Windows.UI.Color)instance;
-            return that.B;
-        }
-        private void set_39_Color_B(object instance, object Value)
-        {
-            var that = (global::Windows.UI.Color)instance;
-            that.B = (global::System.Byte)Value;
-        }
-        private object get_40_Color_G(object instance)
-        {
-            var that = (global::Windows.UI.Color)instance;
-            return that.G;
-        }
-        private void set_40_Color_G(object instance, object Value)
-        {
-            var that = (global::Windows.UI.Color)instance;
-            that.G = (global::System.Byte)Value;
-        }
-        private object get_41_Color_R(object instance)
-        {
-            var that = (global::Windows.UI.Color)instance;
-            return that.R;
-        }
-        private void set_41_Color_R(object instance, object Value)
-        {
-            var that = (global::Windows.UI.Color)instance;
-            that.R = (global::System.Byte)Value;
-        }
-        private object get_42_RadialImageButton_ImageSource(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialImageButton)instance;
-            return that.ImageSource;
-        }
-        private void set_42_RadialImageButton_ImageSource(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialImageButton)instance;
-            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_43_RadialMenu_Items(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            return that.Items;
-        }
-        private void set_43_RadialMenu_Items(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            that.Items = (global::Neumann.TouchControls.RadialMenuItemCollection)Value;
-        }
-        private object get_44_RadialMenuItem_Items(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.Items;
-        }
-        private void set_44_RadialMenuItem_Items(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.Items = (global::Neumann.TouchControls.RadialMenuItemCollection)Value;
-        }
-        private object get_45_RadialMenuItem_ImageSource(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.ImageSource;
-        }
-        private void set_45_RadialMenuItem_ImageSource(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_46_RadialMenuItem_Header(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
             return that.Header;
         }
-        private void set_46_RadialMenuItem_Header(object instance, object Value)
+        private void set_58_RadialItemsControl_Header(object instance, object Value)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.Header = (global::System.String)Value;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.Header = (global::System.Object)Value;
         }
-        private object get_47_RadialMenuItem_HasChildren(object instance)
+        private object get_59_RadialItemsControl_HeaderTemplate(object instance)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.HasChildren;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            return that.HeaderTemplate;
         }
-        private object get_48_RadialMenuItem_Command(object instance)
+        private void set_59_RadialItemsControl_HeaderTemplate(object instance, object Value)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.Command;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.HeaderTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private void set_48_RadialMenuItem_Command(object instance, object Value)
+        private object get_60_RadialItemsControl_ShowLines(object instance)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.Command = (global::System.Windows.Input.ICommand)Value;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            return that.ShowLines;
         }
-        private object get_49_RadialMenuItem_CommandParameter(object instance)
+        private void set_60_RadialItemsControl_ShowLines(object instance, object Value)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.CommandParameter;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.ShowLines = (global::System.Boolean)Value;
         }
-        private void set_49_RadialMenuItem_CommandParameter(object instance, object Value)
+        private object get_61_RadialItemsControl_Radius(object instance)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.CommandParameter = (global::System.Object)Value;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            return that.Radius;
         }
-        private object get_50_RadialMenuItem_Position(object instance)
+        private void set_61_RadialItemsControl_Radius(object instance, object Value)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.Position;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.Radius = (global::System.Double)Value;
         }
-        private void set_50_RadialMenuItem_Position(object instance, object Value)
+        private object get_62_RadialItemsControl_Reset(object instance)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.Position = (global::System.Int32)Value;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            return that.Reset;
         }
-        private object get_51_RadialMenuItem_StartAngle(object instance)
+        private void set_62_RadialItemsControl_Reset(object instance, object Value)
         {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.StartAngle;
+            var that = (global::Neumann.TouchControls.RadialItemsControl)instance;
+            that.Reset = (global::System.Boolean)Value;
         }
-        private void set_51_RadialMenuItem_StartAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.StartAngle = (global::System.Double)Value;
-        }
-        private object get_52_RadialMenuItem_EndAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.EndAngle;
-        }
-        private void set_52_RadialMenuItem_EndAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.EndAngle = (global::System.Double)Value;
-        }
-        private object get_53_RadialMenuItem_ShowFocusIndicator(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            return that.ShowFocusIndicator;
-        }
-        private void set_53_RadialMenuItem_ShowFocusIndicator(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
-            that.ShowFocusIndicator = (global::System.Boolean)Value;
-        }
-        private object get_54_RadialMenu_ImageSource(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            return that.ImageSource;
-        }
-        private void set_54_RadialMenu_ImageSource(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_55_RadialMenu_IsOpen(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            return that.IsOpen;
-        }
-        private void set_55_RadialMenu_IsOpen(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            that.IsOpen = (global::System.Boolean)Value;
-        }
-        private object get_56_RadialMenu_IsExpanded(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            return that.IsExpanded;
-        }
-        private void set_56_RadialMenu_IsExpanded(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenu)instance;
-            that.IsExpanded = (global::System.Boolean)Value;
-        }
-        private object get_57_RadialMenuExtensionButton_Position(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            return that.Position;
-        }
-        private void set_57_RadialMenuExtensionButton_Position(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            that.Position = (global::System.Int32)Value;
-        }
-        private object get_58_RadialMenuExtensionButton_StartAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            return that.StartAngle;
-        }
-        private void set_58_RadialMenuExtensionButton_StartAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            that.StartAngle = (global::System.Double)Value;
-        }
-        private object get_59_RadialMenuExtensionButton_EndAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            return that.EndAngle;
-        }
-        private void set_59_RadialMenuExtensionButton_EndAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            that.EndAngle = (global::System.Double)Value;
-        }
-        private object get_60_RadialMenuExtensionButton_MarkerAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            return that.MarkerAngle;
-        }
-        private void set_60_RadialMenuExtensionButton_MarkerAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            that.MarkerAngle = (global::System.Double)Value;
-        }
-        private object get_61_RadialMenuExtensionButton_MenuItem(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            return that.MenuItem;
-        }
-        private void set_61_RadialMenuExtensionButton_MenuItem(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
-            that.MenuItem = (global::Neumann.TouchControls.RadialMenuItem)Value;
-        }
-        private object get_62_RadialPicker_Minimum(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.Minimum;
-        }
-        private void set_62_RadialPicker_Minimum(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.Minimum = (global::System.Int32)Value;
-        }
-        private object get_63_RadialPicker_Maximum(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.Maximum;
-        }
-        private void set_63_RadialPicker_Maximum(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.Maximum = (global::System.Int32)Value;
-        }
-        private object get_64_RadialPicker_Value(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.Value;
-        }
-        private void set_64_RadialPicker_Value(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.Value = (global::System.Int32)Value;
-        }
-        private object get_65_RadialPicker_Distance(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.Distance;
-        }
-        private void set_65_RadialPicker_Distance(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.Distance = (global::System.Int32)Value;
-        }
-        private object get_66_RadialPicker_StartAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.StartAngle;
-        }
-        private void set_66_RadialPicker_StartAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.StartAngle = (global::System.Double)Value;
-        }
-        private object get_67_RadialPicker_EndAngle(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.EndAngle;
-        }
-        private void set_67_RadialPicker_EndAngle(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.EndAngle = (global::System.Double)Value;
-        }
-        private object get_68_RadialPicker_AcceptOnlyStepValues(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.AcceptOnlyStepValues;
-        }
-        private void set_68_RadialPicker_AcceptOnlyStepValues(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.AcceptOnlyStepValues = (global::System.Boolean)Value;
-        }
-        private object get_69_RadialPicker_OpenWhenLoaded(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            return that.OpenWhenLoaded;
-        }
-        private void set_69_RadialPicker_OpenWhenLoaded(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPicker)instance;
-            that.OpenWhenLoaded = (global::System.Boolean)Value;
-        }
-        private object get_70_RadialPresenter_StrokeThickness(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.StrokeThickness;
-        }
-        private void set_70_RadialPresenter_StrokeThickness(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.StrokeThickness = (global::System.Double)Value;
-        }
-        private object get_71_RadialPresenter_ImageSource(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.ImageSource;
-        }
-        private void set_71_RadialPresenter_ImageSource(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_72_RadialPresenter_IsOpen(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.IsOpen;
-        }
-        private void set_72_RadialPresenter_IsOpen(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.IsOpen = (global::System.Boolean)Value;
-        }
-        private object get_73_RadialPresenter_SelectedItem(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.SelectedItem;
-        }
-        private void set_73_RadialPresenter_SelectedItem(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.SelectedItem = (global::Neumann.TouchControls.Topic)Value;
-        }
-        private object get_74_RadialPresenter_ItemHierarchy(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.ItemHierarchy;
-        }
-        private void set_74_RadialPresenter_ItemHierarchy(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.ItemHierarchy = (global::Neumann.TouchControls.TopicCollection)Value;
-        }
-        private object get_75_Topic_Name(object instance)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            return that.Name;
-        }
-        private void set_75_Topic_Name(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            that.Name = (global::System.String)Value;
-        }
-        private object get_76_Topic_Image(object instance)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            return that.Image;
-        }
-        private void set_76_Topic_Image(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            that.Image = (global::Windows.UI.Xaml.Media.Imaging.BitmapImage)Value;
-        }
-        private object get_77_Topic_ImagePathResourceName(object instance)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            return that.ImagePathResourceName;
-        }
-        private void set_77_Topic_ImagePathResourceName(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            that.ImagePathResourceName = (global::System.String)Value;
-        }
-        private object get_78_Topic_Children(object instance)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            return that.Children;
-        }
-        private void set_78_Topic_Children(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            that.Children = (global::Neumann.TouchControls.TopicCollection)Value;
-        }
-        private object get_79_Topic_Parent(object instance)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            return that.Parent;
-        }
-        private void set_79_Topic_Parent(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.Topic)instance;
-            that.Parent = (global::Neumann.TouchControls.Topic)Value;
-        }
-        private object get_80_RadialPresenter_CenterContent(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.CenterContent;
-        }
-        private void set_80_RadialPresenter_CenterContent(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.CenterContent = (global::System.Object)Value;
-        }
-        private object get_81_RadialPresenter_CenterContentTemplate(object instance)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            return that.CenterContentTemplate;
-        }
-        private void set_81_RadialPresenter_CenterContentTemplate(object instance, object Value)
-        {
-            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
-            that.CenterContentTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_82_CircleItemsPanel_Radius(object instance)
+        private object get_63_CircleItemsPanel_Radius(object instance)
         {
             var that = (global::Neumann.TouchControls.CircleItemsPanel)instance;
             return that.Radius;
         }
-        private void set_82_CircleItemsPanel_Radius(object instance, object Value)
+        private void set_63_CircleItemsPanel_Radius(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.CircleItemsPanel)instance;
             that.Radius = (global::System.Double)Value;
         }
-        private object get_83_RadialPresenterItem_ImageSource(object instance)
+        private object get_64_Color_A(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.A;
+        }
+        private void set_64_Color_A(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.A = (global::System.Byte)Value;
+        }
+        private object get_65_Color_B(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.B;
+        }
+        private void set_65_Color_B(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.B = (global::System.Byte)Value;
+        }
+        private object get_66_Color_G(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.G;
+        }
+        private void set_66_Color_G(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.G = (global::System.Byte)Value;
+        }
+        private object get_67_Color_R(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.R;
+        }
+        private void set_67_Color_R(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.R = (global::System.Byte)Value;
+        }
+        private object get_68_RadialImageButton_ImageSource(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialImageButton)instance;
+            return that.ImageSource;
+        }
+        private void set_68_RadialImageButton_ImageSource(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialImageButton)instance;
+            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_69_RadialMenu_Items(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            return that.Items;
+        }
+        private void set_69_RadialMenu_Items(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            that.Items = (global::Neumann.TouchControls.RadialMenuItemCollection)Value;
+        }
+        private object get_70_RadialMenuItem_Items(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.Items;
+        }
+        private void set_70_RadialMenuItem_Items(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.Items = (global::Neumann.TouchControls.RadialMenuItemCollection)Value;
+        }
+        private object get_71_RadialMenuItem_ImageSource(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.ImageSource;
+        }
+        private void set_71_RadialMenuItem_ImageSource(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_72_RadialMenuItem_Header(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.Header;
+        }
+        private void set_72_RadialMenuItem_Header(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.Header = (global::System.String)Value;
+        }
+        private object get_73_RadialMenuItem_HasChildren(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.HasChildren;
+        }
+        private object get_74_RadialMenuItem_Command(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.Command;
+        }
+        private void set_74_RadialMenuItem_Command(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_75_RadialMenuItem_CommandParameter(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.CommandParameter;
+        }
+        private void set_75_RadialMenuItem_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_76_RadialMenuItem_Position(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.Position;
+        }
+        private void set_76_RadialMenuItem_Position(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.Position = (global::System.Int32)Value;
+        }
+        private object get_77_RadialMenuItem_StartAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.StartAngle;
+        }
+        private void set_77_RadialMenuItem_StartAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.StartAngle = (global::System.Double)Value;
+        }
+        private object get_78_RadialMenuItem_EndAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.EndAngle;
+        }
+        private void set_78_RadialMenuItem_EndAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.EndAngle = (global::System.Double)Value;
+        }
+        private object get_79_RadialMenuItem_ShowFocusIndicator(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            return that.ShowFocusIndicator;
+        }
+        private void set_79_RadialMenuItem_ShowFocusIndicator(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuItem)instance;
+            that.ShowFocusIndicator = (global::System.Boolean)Value;
+        }
+        private object get_80_RadialMenu_ImageSource(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            return that.ImageSource;
+        }
+        private void set_80_RadialMenu_ImageSource(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_81_RadialMenu_IsOpen(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            return that.IsOpen;
+        }
+        private void set_81_RadialMenu_IsOpen(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            that.IsOpen = (global::System.Boolean)Value;
+        }
+        private object get_82_RadialMenu_IsExpanded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            return that.IsExpanded;
+        }
+        private void set_82_RadialMenu_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenu)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_83_RadialMenuExtensionButton_Position(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            return that.Position;
+        }
+        private void set_83_RadialMenuExtensionButton_Position(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            that.Position = (global::System.Int32)Value;
+        }
+        private object get_84_RadialMenuExtensionButton_StartAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            return that.StartAngle;
+        }
+        private void set_84_RadialMenuExtensionButton_StartAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            that.StartAngle = (global::System.Double)Value;
+        }
+        private object get_85_RadialMenuExtensionButton_EndAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            return that.EndAngle;
+        }
+        private void set_85_RadialMenuExtensionButton_EndAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            that.EndAngle = (global::System.Double)Value;
+        }
+        private object get_86_RadialMenuExtensionButton_MarkerAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            return that.MarkerAngle;
+        }
+        private void set_86_RadialMenuExtensionButton_MarkerAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            that.MarkerAngle = (global::System.Double)Value;
+        }
+        private object get_87_RadialMenuExtensionButton_MenuItem(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            return that.MenuItem;
+        }
+        private void set_87_RadialMenuExtensionButton_MenuItem(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialMenuExtensionButton)instance;
+            that.MenuItem = (global::Neumann.TouchControls.RadialMenuItem)Value;
+        }
+        private object get_88_RadialPicker_Minimum(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.Minimum;
+        }
+        private void set_88_RadialPicker_Minimum(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.Minimum = (global::System.Int32)Value;
+        }
+        private object get_89_RadialPicker_Maximum(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.Maximum;
+        }
+        private void set_89_RadialPicker_Maximum(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.Maximum = (global::System.Int32)Value;
+        }
+        private object get_90_RadialPicker_Value(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.Value;
+        }
+        private void set_90_RadialPicker_Value(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.Value = (global::System.Int32)Value;
+        }
+        private object get_91_RadialPicker_Distance(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.Distance;
+        }
+        private void set_91_RadialPicker_Distance(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.Distance = (global::System.Int32)Value;
+        }
+        private object get_92_RadialPicker_StartAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.StartAngle;
+        }
+        private void set_92_RadialPicker_StartAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.StartAngle = (global::System.Double)Value;
+        }
+        private object get_93_RadialPicker_EndAngle(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.EndAngle;
+        }
+        private void set_93_RadialPicker_EndAngle(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.EndAngle = (global::System.Double)Value;
+        }
+        private object get_94_RadialPicker_AcceptOnlyStepValues(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.AcceptOnlyStepValues;
+        }
+        private void set_94_RadialPicker_AcceptOnlyStepValues(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.AcceptOnlyStepValues = (global::System.Boolean)Value;
+        }
+        private object get_95_RadialPicker_OpenWhenLoaded(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            return that.OpenWhenLoaded;
+        }
+        private void set_95_RadialPicker_OpenWhenLoaded(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPicker)instance;
+            that.OpenWhenLoaded = (global::System.Boolean)Value;
+        }
+        private object get_96_RadialPresenter_StrokeThickness(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.StrokeThickness;
+        }
+        private void set_96_RadialPresenter_StrokeThickness(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.StrokeThickness = (global::System.Double)Value;
+        }
+        private object get_97_RadialPresenter_ImageSource(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.ImageSource;
+        }
+        private void set_97_RadialPresenter_ImageSource(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_98_RadialPresenter_IsOpen(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.IsOpen;
+        }
+        private void set_98_RadialPresenter_IsOpen(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.IsOpen = (global::System.Boolean)Value;
+        }
+        private object get_99_RadialPresenter_SelectedItem(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.SelectedItem;
+        }
+        private void set_99_RadialPresenter_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.SelectedItem = (global::Neumann.TouchControls.Topic)Value;
+        }
+        private object get_100_RadialPresenter_ItemHierarchy(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.ItemHierarchy;
+        }
+        private void set_100_RadialPresenter_ItemHierarchy(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.ItemHierarchy = (global::Neumann.TouchControls.TopicCollection)Value;
+        }
+        private object get_101_Topic_Name(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            return that.Name;
+        }
+        private void set_101_Topic_Name(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_102_Topic_Image(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            return that.Image;
+        }
+        private void set_102_Topic_Image(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            that.Image = (global::Windows.UI.Xaml.Media.Imaging.BitmapImage)Value;
+        }
+        private object get_103_Topic_ImagePathResourceName(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            return that.ImagePathResourceName;
+        }
+        private void set_103_Topic_ImagePathResourceName(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            that.ImagePathResourceName = (global::System.String)Value;
+        }
+        private object get_104_Topic_Children(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            return that.Children;
+        }
+        private void set_104_Topic_Children(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            that.Children = (global::Neumann.TouchControls.TopicCollection)Value;
+        }
+        private object get_105_Topic_Parent(object instance)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            return that.Parent;
+        }
+        private void set_105_Topic_Parent(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.Topic)instance;
+            that.Parent = (global::Neumann.TouchControls.Topic)Value;
+        }
+        private object get_106_RadialPresenter_CenterContent(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.CenterContent;
+        }
+        private void set_106_RadialPresenter_CenterContent(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.CenterContent = (global::System.Object)Value;
+        }
+        private object get_107_RadialPresenter_CenterContentTemplate(object instance)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            return that.CenterContentTemplate;
+        }
+        private void set_107_RadialPresenter_CenterContentTemplate(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.RadialPresenter)instance;
+            that.CenterContentTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_108_RadialPresenterItem_ImageSource(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.ImageSource;
         }
-        private void set_83_RadialPresenterItem_ImageSource(object instance, object Value)
+        private void set_108_RadialPresenterItem_ImageSource(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.ImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_84_RadialPresenterItem_ImagePathGeometry(object instance)
+        private object get_109_RadialPresenterItem_ImagePathGeometry(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.ImagePathGeometry;
         }
-        private void set_84_RadialPresenterItem_ImagePathGeometry(object instance, object Value)
+        private void set_109_RadialPresenterItem_ImagePathGeometry(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.ImagePathGeometry = (global::Windows.UI.Xaml.Media.PathGeometry)Value;
         }
-        private object get_85_RadialPresenterItem_ImagePath(object instance)
+        private object get_110_RadialPresenterItem_ImagePath(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.ImagePath;
         }
-        private void set_85_RadialPresenterItem_ImagePath(object instance, object Value)
+        private void set_110_RadialPresenterItem_ImagePath(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.ImagePath = (global::System.String)Value;
         }
-        private object get_86_RadialPresenterItem_StrokeThickness(object instance)
+        private object get_111_RadialPresenterItem_StrokeThickness(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.StrokeThickness;
         }
-        private void set_86_RadialPresenterItem_StrokeThickness(object instance, object Value)
+        private void set_111_RadialPresenterItem_StrokeThickness(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.StrokeThickness = (global::System.Double)Value;
         }
-        private object get_87_RadialPresenterItem_Command(object instance)
+        private object get_112_RadialPresenterItem_Command(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.Command;
         }
-        private void set_87_RadialPresenterItem_Command(object instance, object Value)
+        private void set_112_RadialPresenterItem_Command(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.Command = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_88_RadialPresenterItem_CommandParameter(object instance)
+        private object get_113_RadialPresenterItem_CommandParameter(object instance)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             return that.CommandParameter;
         }
-        private void set_88_RadialPresenterItem_CommandParameter(object instance, object Value)
+        private void set_113_RadialPresenterItem_CommandParameter(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RadialPresenterItem)instance;
             that.CommandParameter = (global::System.Object)Value;
         }
-        private object get_89_RangeSlider_Minimum(object instance)
+        private object get_114_RangeSlider_Minimum(object instance)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             return that.Minimum;
         }
-        private void set_89_RangeSlider_Minimum(object instance, object Value)
+        private void set_114_RangeSlider_Minimum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             that.Minimum = (global::System.Int32)Value;
         }
-        private object get_90_RangeSlider_Maximum(object instance)
+        private object get_115_RangeSlider_Maximum(object instance)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             return that.Maximum;
         }
-        private void set_90_RangeSlider_Maximum(object instance, object Value)
+        private void set_115_RangeSlider_Maximum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             that.Maximum = (global::System.Int32)Value;
         }
-        private object get_91_RangeSlider_Value1(object instance)
+        private object get_116_RangeSlider_Value1(object instance)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             return that.Value1;
         }
-        private void set_91_RangeSlider_Value1(object instance, object Value)
+        private void set_116_RangeSlider_Value1(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             that.Value1 = (global::System.Int32)Value;
         }
-        private object get_92_RangeSlider_Value2(object instance)
+        private object get_117_RangeSlider_Value2(object instance)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             return that.Value2;
         }
-        private void set_92_RangeSlider_Value2(object instance, object Value)
+        private void set_117_RangeSlider_Value2(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             that.Value2 = (global::System.Int32)Value;
         }
-        private object get_93_RangeSlider_Range(object instance)
+        private object get_118_RangeSlider_Range(object instance)
         {
             var that = (global::Neumann.TouchControls.RangeSlider)instance;
             return that.Range;
         }
-        private object get_94_Spinner_Label(object instance)
+        private object get_119_Spinner_Label(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.Label;
         }
-        private void set_94_Spinner_Label(object instance, object Value)
+        private void set_119_Spinner_Label(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.Label = (global::System.String)Value;
         }
-        private object get_95_Spinner_LabelTemplate(object instance)
+        private object get_120_Spinner_LabelTemplate(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.LabelTemplate;
         }
-        private void set_95_Spinner_LabelTemplate(object instance, object Value)
+        private void set_120_Spinner_LabelTemplate(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.LabelTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_96_Spinner_Minimum(object instance)
+        private object get_121_Spinner_Minimum(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.Minimum;
         }
-        private void set_96_Spinner_Minimum(object instance, object Value)
+        private void set_121_Spinner_Minimum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.Minimum = (global::System.Int32)Value;
         }
-        private object get_97_Spinner_Maximum(object instance)
+        private object get_122_Spinner_Maximum(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.Maximum;
         }
-        private void set_97_Spinner_Maximum(object instance, object Value)
+        private void set_122_Spinner_Maximum(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.Maximum = (global::System.Int32)Value;
         }
-        private object get_98_Spinner_SelectionColor(object instance)
+        private object get_123_Spinner_SelectionColor(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.SelectionColor;
         }
-        private void set_98_Spinner_SelectionColor(object instance, object Value)
+        private void set_123_Spinner_SelectionColor(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.SelectionColor = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_99_Spinner_Value(object instance)
+        private object get_124_Spinner_Value(object instance)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             return that.Value;
         }
-        private void set_99_Spinner_Value(object instance, object Value)
+        private void set_124_Spinner_Value(object instance, object Value)
         {
             var that = (global::Neumann.TouchControls.Spinner)instance;
             that.Value = (global::System.Int32)Value;
+        }
+        private object get_125_ToggleButtonList_SelectedItem(object instance)
+        {
+            var that = (global::Neumann.TouchControls.ToggleButtonList)instance;
+            return that.SelectedItem;
+        }
+        private void set_125_ToggleButtonList_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Neumann.TouchControls.ToggleButtonList)instance;
+            that.SelectedItem = (global::System.Object)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -1923,576 +2286,757 @@ namespace Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo
                 xamlMember.Getter = get_16_ColumnView_NormalizeColumnWidth;
                 xamlMember.Setter = set_16_ColumnView_NormalizeColumnWidth;
                 break;
+            case "Neumann.TouchControls.Expander.SelectedIndex":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_Expander_SelectedIndex;
+                xamlMember.Setter = set_17_Expander_SelectedIndex;
+                break;
+            case "Neumann.TouchControls.Expander.SelectedItem":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_Expander_SelectedItem;
+                xamlMember.Setter = set_18_Expander_SelectedItem;
+                break;
+            case "Neumann.TouchControls.Expander.HeaderTemplateExpanded":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplateExpanded", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_Expander_HeaderTemplateExpanded;
+                xamlMember.Setter = set_19_Expander_HeaderTemplateExpanded;
+                break;
+            case "Neumann.TouchControls.Expander.HeaderTemplateCollapsed":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplateCollapsed", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_Expander_HeaderTemplateCollapsed;
+                xamlMember.Setter = set_20_Expander_HeaderTemplateCollapsed;
+                break;
+            case "Neumann.TouchControls.Expander.Command":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_Expander_Command;
+                xamlMember.Setter = set_21_Expander_Command;
+                break;
+            case "Neumann.TouchControls.Expander.CommandParameter":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_22_Expander_CommandParameter;
+                xamlMember.Setter = set_22_Expander_CommandParameter;
+                break;
+            case "Neumann.TouchControls.Expander.Orientation":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Expander");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Orientation", "Windows.UI.Xaml.Controls.Orientation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_23_Expander_Orientation;
+                xamlMember.Setter = set_23_Expander_Orientation;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.HeaderTemplateCollapsed":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplateCollapsed", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_24_ExpanderItem_HeaderTemplateCollapsed;
+                xamlMember.Setter = set_24_ExpanderItem_HeaderTemplateCollapsed;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.HeaderTemplateExpanded":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplateExpanded", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_25_ExpanderItem_HeaderTemplateExpanded;
+                xamlMember.Setter = set_25_ExpanderItem_HeaderTemplateExpanded;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.Header":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_26_ExpanderItem_Header;
+                xamlMember.Setter = set_26_ExpanderItem_Header;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.IsExpanded":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_27_ExpanderItem_IsExpanded;
+                xamlMember.Setter = set_27_ExpanderItem_IsExpanded;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.Command":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_28_ExpanderItem_Command;
+                xamlMember.Setter = set_28_ExpanderItem_Command;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.CommandParameter":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_29_ExpanderItem_CommandParameter;
+                xamlMember.Setter = set_29_ExpanderItem_CommandParameter;
+                break;
+            case "Neumann.TouchControls.ExpanderItem.Expander":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Expander", "Neumann.TouchControls.Expander");
+                xamlMember.Getter = get_30_ExpanderItem_Expander;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Neumann.TouchControls.ExpanderItem.Orientation":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ExpanderItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Orientation", "Windows.UI.Xaml.Controls.Orientation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_31_ExpanderItem_Orientation;
+                xamlMember.Setter = set_31_ExpanderItem_Orientation;
+                break;
+            case "Neumann.TouchControls.LayoutTransformer.LayoutTransform":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.LayoutTransformer");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "LayoutTransform", "Windows.UI.Xaml.Media.Transform");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_LayoutTransformer_LayoutTransform;
+                xamlMember.Setter = set_32_LayoutTransformer_LayoutTransform;
+                break;
             case "Neumann.TouchControls.FanControl.ContentStyle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ContentStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_FanControl_ContentStyle;
-                xamlMember.Setter = set_17_FanControl_ContentStyle;
+                xamlMember.Getter = get_33_FanControl_ContentStyle;
+                xamlMember.Setter = set_33_FanControl_ContentStyle;
                 break;
             case "Neumann.TouchControls.FanControl.StartAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_FanControl_StartAngle;
-                xamlMember.Setter = set_18_FanControl_StartAngle;
+                xamlMember.Getter = get_34_FanControl_StartAngle;
+                xamlMember.Setter = set_34_FanControl_StartAngle;
                 break;
             case "Neumann.TouchControls.FanControl.EndAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_FanControl_EndAngle;
-                xamlMember.Setter = set_19_FanControl_EndAngle;
+                xamlMember.Getter = get_35_FanControl_EndAngle;
+                xamlMember.Setter = set_35_FanControl_EndAngle;
                 break;
             case "Neumann.TouchControls.FanControl.Radius":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Radius", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_FanControl_Radius;
-                xamlMember.Setter = set_20_FanControl_Radius;
+                xamlMember.Getter = get_36_FanControl_Radius;
+                xamlMember.Setter = set_36_FanControl_Radius;
                 break;
             case "Neumann.TouchControls.FanControl.Command":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_FanControl_Command;
-                xamlMember.Setter = set_21_FanControl_Command;
+                xamlMember.Getter = get_37_FanControl_Command;
+                xamlMember.Setter = set_37_FanControl_Command;
                 break;
             case "Neumann.TouchControls.FanControl.DisplayMode":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "DisplayMode", "Neumann.TouchControls.DisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_FanControl_DisplayMode;
-                xamlMember.Setter = set_22_FanControl_DisplayMode;
+                xamlMember.Getter = get_38_FanControl_DisplayMode;
+                xamlMember.Setter = set_38_FanControl_DisplayMode;
                 break;
             case "Neumann.TouchControls.FanControl.IsRotatingContent":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanControl");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsRotatingContent", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_FanControl_IsRotatingContent;
-                xamlMember.Setter = set_23_FanControl_IsRotatingContent;
+                xamlMember.Getter = get_39_FanControl_IsRotatingContent;
+                xamlMember.Setter = set_39_FanControl_IsRotatingContent;
                 break;
             case "Neumann.TouchControls.PieSlice.StartAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.PieSlice");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_PieSlice_StartAngle;
-                xamlMember.Setter = set_24_PieSlice_StartAngle;
+                xamlMember.Getter = get_40_PieSlice_StartAngle;
+                xamlMember.Setter = set_40_PieSlice_StartAngle;
                 break;
             case "Neumann.TouchControls.PieSlice.EndAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.PieSlice");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_PieSlice_EndAngle;
-                xamlMember.Setter = set_25_PieSlice_EndAngle;
+                xamlMember.Getter = get_41_PieSlice_EndAngle;
+                xamlMember.Setter = set_41_PieSlice_EndAngle;
                 break;
             case "Neumann.TouchControls.PieSlice.Radius":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.PieSlice");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Radius", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_PieSlice_Radius;
-                xamlMember.Setter = set_26_PieSlice_Radius;
+                xamlMember.Getter = get_42_PieSlice_Radius;
+                xamlMember.Setter = set_42_PieSlice_Radius;
                 break;
             case "Neumann.TouchControls.FanSelector.Fans":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanSelector");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Fans", "Neumann.TouchControls.FanCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_FanSelector_Fans;
-                xamlMember.Setter = set_27_FanSelector_Fans;
+                xamlMember.Getter = get_43_FanSelector_Fans;
+                xamlMember.Setter = set_43_FanSelector_Fans;
                 break;
             case "Neumann.TouchControls.FanSelector.ButtonStyle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanSelector");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ButtonStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_28_FanSelector_ButtonStyle;
-                xamlMember.Setter = set_28_FanSelector_ButtonStyle;
+                xamlMember.Getter = get_44_FanSelector_ButtonStyle;
+                xamlMember.Setter = set_44_FanSelector_ButtonStyle;
                 break;
             case "Neumann.TouchControls.FanSelector.IsOpen":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanSelector");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_29_FanSelector_IsOpen;
-                xamlMember.Setter = set_29_FanSelector_IsOpen;
+                xamlMember.Getter = get_45_FanSelector_IsOpen;
+                xamlMember.Setter = set_45_FanSelector_IsOpen;
                 break;
             case "Neumann.TouchControls.FanSelector.DisplayMode":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanSelector");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "DisplayMode", "Neumann.TouchControls.DisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_30_FanSelector_DisplayMode;
-                xamlMember.Setter = set_30_FanSelector_DisplayMode;
+                xamlMember.Getter = get_46_FanSelector_DisplayMode;
+                xamlMember.Setter = set_46_FanSelector_DisplayMode;
                 break;
             case "Neumann.TouchControls.FanSelector.IsRotatingContent":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FanSelector");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsRotatingContent", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_FanSelector_IsRotatingContent;
-                xamlMember.Setter = set_31_FanSelector_IsRotatingContent;
+                xamlMember.Getter = get_47_FanSelector_IsRotatingContent;
+                xamlMember.Setter = set_47_FanSelector_IsRotatingContent;
+                break;
+            case "Neumann.TouchControls.FilterBarItem.FilterBar":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FilterBarItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "FilterBar", "Neumann.TouchControls.FilterBar");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_FilterBarItem_FilterBar;
+                xamlMember.Setter = set_48_FilterBarItem_FilterBar;
+                break;
+            case "Neumann.TouchControls.FilterBarItem.IsExpanded":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FilterBarItem");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_FilterBarItem_IsExpanded;
+                xamlMember.Setter = set_49_FilterBarItem_IsExpanded;
+                break;
+            case "Neumann.TouchControls.FilterBar.HeaderTemplate":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.FilterBar");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_FilterBar_HeaderTemplate;
+                xamlMember.Setter = set_50_FilterBar_HeaderTemplate;
                 break;
             case "Neumann.TouchControls.NumberPad.SubText":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SubText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_NumberPad_SubText;
-                xamlMember.Setter = set_32_NumberPad_SubText;
+                xamlMember.Getter = get_51_NumberPad_SubText;
+                xamlMember.Setter = set_51_NumberPad_SubText;
                 break;
             case "Neumann.TouchControls.NumberPad.SubTextTemplate":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SubTextTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_NumberPad_SubTextTemplate;
-                xamlMember.Setter = set_33_NumberPad_SubTextTemplate;
+                xamlMember.Getter = get_52_NumberPad_SubTextTemplate;
+                xamlMember.Setter = set_52_NumberPad_SubTextTemplate;
                 break;
             case "Neumann.TouchControls.NumberPad.Minimum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Minimum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_NumberPad_Minimum;
-                xamlMember.Setter = set_34_NumberPad_Minimum;
+                xamlMember.Getter = get_53_NumberPad_Minimum;
+                xamlMember.Setter = set_53_NumberPad_Minimum;
                 break;
             case "Neumann.TouchControls.NumberPad.Maximum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Maximum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_NumberPad_Maximum;
-                xamlMember.Setter = set_35_NumberPad_Maximum;
+                xamlMember.Getter = get_54_NumberPad_Maximum;
+                xamlMember.Setter = set_54_NumberPad_Maximum;
                 break;
             case "Neumann.TouchControls.NumberPad.PointerOverBrush":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "PointerOverBrush", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_NumberPad_PointerOverBrush;
-                xamlMember.Setter = set_36_NumberPad_PointerOverBrush;
+                xamlMember.Getter = get_55_NumberPad_PointerOverBrush;
+                xamlMember.Setter = set_55_NumberPad_PointerOverBrush;
                 break;
             case "Neumann.TouchControls.NumberPad.Value":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.NumberPad");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Value", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_NumberPad_Value;
-                xamlMember.Setter = set_37_NumberPad_Value;
+                xamlMember.Getter = get_56_NumberPad_Value;
+                xamlMember.Setter = set_56_NumberPad_Value;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.LineStyle":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "LineStyle", "Windows.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_RadialItemsControl_LineStyle;
+                xamlMember.Setter = set_57_RadialItemsControl_LineStyle;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.Header":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_RadialItemsControl_Header;
+                xamlMember.Setter = set_58_RadialItemsControl_Header;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.HeaderTemplate":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_RadialItemsControl_HeaderTemplate;
+                xamlMember.Setter = set_59_RadialItemsControl_HeaderTemplate;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.ShowLines":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ShowLines", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_RadialItemsControl_ShowLines;
+                xamlMember.Setter = set_60_RadialItemsControl_ShowLines;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.Radius":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Radius", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_RadialItemsControl_Radius;
+                xamlMember.Setter = set_61_RadialItemsControl_Radius;
+                break;
+            case "Neumann.TouchControls.RadialItemsControl.Reset":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialItemsControl");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Reset", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_RadialItemsControl_Reset;
+                xamlMember.Setter = set_62_RadialItemsControl_Reset;
+                break;
+            case "Neumann.TouchControls.CircleItemsPanel.Radius":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.CircleItemsPanel");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Radius", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_63_CircleItemsPanel_Radius;
+                xamlMember.Setter = set_63_CircleItemsPanel_Radius;
                 break;
             case "Windows.UI.Color.A":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "A", "Byte");
-                xamlMember.Getter = get_38_Color_A;
-                xamlMember.Setter = set_38_Color_A;
+                xamlMember.Getter = get_64_Color_A;
+                xamlMember.Setter = set_64_Color_A;
                 break;
             case "Windows.UI.Color.B":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "B", "Byte");
-                xamlMember.Getter = get_39_Color_B;
-                xamlMember.Setter = set_39_Color_B;
+                xamlMember.Getter = get_65_Color_B;
+                xamlMember.Setter = set_65_Color_B;
                 break;
             case "Windows.UI.Color.G":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "G", "Byte");
-                xamlMember.Getter = get_40_Color_G;
-                xamlMember.Setter = set_40_Color_G;
+                xamlMember.Getter = get_66_Color_G;
+                xamlMember.Setter = set_66_Color_G;
                 break;
             case "Windows.UI.Color.R":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "R", "Byte");
-                xamlMember.Getter = get_41_Color_R;
-                xamlMember.Setter = set_41_Color_R;
+                xamlMember.Getter = get_67_Color_R;
+                xamlMember.Setter = set_67_Color_R;
                 break;
             case "Neumann.TouchControls.RadialImageButton.ImageSource":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialImageButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_RadialImageButton_ImageSource;
-                xamlMember.Setter = set_42_RadialImageButton_ImageSource;
+                xamlMember.Getter = get_68_RadialImageButton_ImageSource;
+                xamlMember.Setter = set_68_RadialImageButton_ImageSource;
                 break;
             case "Neumann.TouchControls.RadialMenu.Items":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenu");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Items", "Neumann.TouchControls.RadialMenuItemCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_RadialMenu_Items;
-                xamlMember.Setter = set_43_RadialMenu_Items;
+                xamlMember.Getter = get_69_RadialMenu_Items;
+                xamlMember.Setter = set_69_RadialMenu_Items;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.Items":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Items", "Neumann.TouchControls.RadialMenuItemCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_RadialMenuItem_Items;
-                xamlMember.Setter = set_44_RadialMenuItem_Items;
+                xamlMember.Getter = get_70_RadialMenuItem_Items;
+                xamlMember.Setter = set_70_RadialMenuItem_Items;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.ImageSource":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_RadialMenuItem_ImageSource;
-                xamlMember.Setter = set_45_RadialMenuItem_ImageSource;
+                xamlMember.Getter = get_71_RadialMenuItem_ImageSource;
+                xamlMember.Setter = set_71_RadialMenuItem_ImageSource;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.Header":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Header", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_RadialMenuItem_Header;
-                xamlMember.Setter = set_46_RadialMenuItem_Header;
+                xamlMember.Getter = get_72_RadialMenuItem_Header;
+                xamlMember.Setter = set_72_RadialMenuItem_Header;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.HasChildren":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
-                xamlMember.Getter = get_47_RadialMenuItem_HasChildren;
+                xamlMember.Getter = get_73_RadialMenuItem_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Neumann.TouchControls.RadialMenuItem.Command":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_RadialMenuItem_Command;
-                xamlMember.Setter = set_48_RadialMenuItem_Command;
+                xamlMember.Getter = get_74_RadialMenuItem_Command;
+                xamlMember.Setter = set_74_RadialMenuItem_Command;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.CommandParameter":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_RadialMenuItem_CommandParameter;
-                xamlMember.Setter = set_49_RadialMenuItem_CommandParameter;
+                xamlMember.Getter = get_75_RadialMenuItem_CommandParameter;
+                xamlMember.Setter = set_75_RadialMenuItem_CommandParameter;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.Position":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Position", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_RadialMenuItem_Position;
-                xamlMember.Setter = set_50_RadialMenuItem_Position;
+                xamlMember.Getter = get_76_RadialMenuItem_Position;
+                xamlMember.Setter = set_76_RadialMenuItem_Position;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.StartAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_RadialMenuItem_StartAngle;
-                xamlMember.Setter = set_51_RadialMenuItem_StartAngle;
+                xamlMember.Getter = get_77_RadialMenuItem_StartAngle;
+                xamlMember.Setter = set_77_RadialMenuItem_StartAngle;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.EndAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_RadialMenuItem_EndAngle;
-                xamlMember.Setter = set_52_RadialMenuItem_EndAngle;
+                xamlMember.Getter = get_78_RadialMenuItem_EndAngle;
+                xamlMember.Setter = set_78_RadialMenuItem_EndAngle;
                 break;
             case "Neumann.TouchControls.RadialMenuItem.ShowFocusIndicator":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ShowFocusIndicator", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_RadialMenuItem_ShowFocusIndicator;
-                xamlMember.Setter = set_53_RadialMenuItem_ShowFocusIndicator;
+                xamlMember.Getter = get_79_RadialMenuItem_ShowFocusIndicator;
+                xamlMember.Setter = set_79_RadialMenuItem_ShowFocusIndicator;
                 break;
             case "Neumann.TouchControls.RadialMenu.ImageSource":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenu");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_RadialMenu_ImageSource;
-                xamlMember.Setter = set_54_RadialMenu_ImageSource;
+                xamlMember.Getter = get_80_RadialMenu_ImageSource;
+                xamlMember.Setter = set_80_RadialMenu_ImageSource;
                 break;
             case "Neumann.TouchControls.RadialMenu.IsOpen":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenu");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_RadialMenu_IsOpen;
-                xamlMember.Setter = set_55_RadialMenu_IsOpen;
+                xamlMember.Getter = get_81_RadialMenu_IsOpen;
+                xamlMember.Setter = set_81_RadialMenu_IsOpen;
                 break;
             case "Neumann.TouchControls.RadialMenu.IsExpanded":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenu");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_RadialMenu_IsExpanded;
-                xamlMember.Setter = set_56_RadialMenu_IsExpanded;
+                xamlMember.Getter = get_82_RadialMenu_IsExpanded;
+                xamlMember.Setter = set_82_RadialMenu_IsExpanded;
                 break;
             case "Neumann.TouchControls.RadialMenuExtensionButton.Position":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuExtensionButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Position", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_RadialMenuExtensionButton_Position;
-                xamlMember.Setter = set_57_RadialMenuExtensionButton_Position;
+                xamlMember.Getter = get_83_RadialMenuExtensionButton_Position;
+                xamlMember.Setter = set_83_RadialMenuExtensionButton_Position;
                 break;
             case "Neumann.TouchControls.RadialMenuExtensionButton.StartAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuExtensionButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_RadialMenuExtensionButton_StartAngle;
-                xamlMember.Setter = set_58_RadialMenuExtensionButton_StartAngle;
+                xamlMember.Getter = get_84_RadialMenuExtensionButton_StartAngle;
+                xamlMember.Setter = set_84_RadialMenuExtensionButton_StartAngle;
                 break;
             case "Neumann.TouchControls.RadialMenuExtensionButton.EndAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuExtensionButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_RadialMenuExtensionButton_EndAngle;
-                xamlMember.Setter = set_59_RadialMenuExtensionButton_EndAngle;
+                xamlMember.Getter = get_85_RadialMenuExtensionButton_EndAngle;
+                xamlMember.Setter = set_85_RadialMenuExtensionButton_EndAngle;
                 break;
             case "Neumann.TouchControls.RadialMenuExtensionButton.MarkerAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuExtensionButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "MarkerAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_RadialMenuExtensionButton_MarkerAngle;
-                xamlMember.Setter = set_60_RadialMenuExtensionButton_MarkerAngle;
+                xamlMember.Getter = get_86_RadialMenuExtensionButton_MarkerAngle;
+                xamlMember.Setter = set_86_RadialMenuExtensionButton_MarkerAngle;
                 break;
             case "Neumann.TouchControls.RadialMenuExtensionButton.MenuItem":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialMenuExtensionButton");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "MenuItem", "Neumann.TouchControls.RadialMenuItem");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_RadialMenuExtensionButton_MenuItem;
-                xamlMember.Setter = set_61_RadialMenuExtensionButton_MenuItem;
+                xamlMember.Getter = get_87_RadialMenuExtensionButton_MenuItem;
+                xamlMember.Setter = set_87_RadialMenuExtensionButton_MenuItem;
                 break;
             case "Neumann.TouchControls.RadialPicker.Minimum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Minimum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_RadialPicker_Minimum;
-                xamlMember.Setter = set_62_RadialPicker_Minimum;
+                xamlMember.Getter = get_88_RadialPicker_Minimum;
+                xamlMember.Setter = set_88_RadialPicker_Minimum;
                 break;
             case "Neumann.TouchControls.RadialPicker.Maximum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Maximum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_RadialPicker_Maximum;
-                xamlMember.Setter = set_63_RadialPicker_Maximum;
+                xamlMember.Getter = get_89_RadialPicker_Maximum;
+                xamlMember.Setter = set_89_RadialPicker_Maximum;
                 break;
             case "Neumann.TouchControls.RadialPicker.Value":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Value", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_RadialPicker_Value;
-                xamlMember.Setter = set_64_RadialPicker_Value;
+                xamlMember.Getter = get_90_RadialPicker_Value;
+                xamlMember.Setter = set_90_RadialPicker_Value;
                 break;
             case "Neumann.TouchControls.RadialPicker.Distance":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Distance", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_RadialPicker_Distance;
-                xamlMember.Setter = set_65_RadialPicker_Distance;
+                xamlMember.Getter = get_91_RadialPicker_Distance;
+                xamlMember.Setter = set_91_RadialPicker_Distance;
                 break;
             case "Neumann.TouchControls.RadialPicker.StartAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_RadialPicker_StartAngle;
-                xamlMember.Setter = set_66_RadialPicker_StartAngle;
+                xamlMember.Getter = get_92_RadialPicker_StartAngle;
+                xamlMember.Setter = set_92_RadialPicker_StartAngle;
                 break;
             case "Neumann.TouchControls.RadialPicker.EndAngle":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "EndAngle", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_RadialPicker_EndAngle;
-                xamlMember.Setter = set_67_RadialPicker_EndAngle;
+                xamlMember.Getter = get_93_RadialPicker_EndAngle;
+                xamlMember.Setter = set_93_RadialPicker_EndAngle;
                 break;
             case "Neumann.TouchControls.RadialPicker.AcceptOnlyStepValues":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "AcceptOnlyStepValues", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_RadialPicker_AcceptOnlyStepValues;
-                xamlMember.Setter = set_68_RadialPicker_AcceptOnlyStepValues;
+                xamlMember.Getter = get_94_RadialPicker_AcceptOnlyStepValues;
+                xamlMember.Setter = set_94_RadialPicker_AcceptOnlyStepValues;
                 break;
             case "Neumann.TouchControls.RadialPicker.OpenWhenLoaded":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPicker");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "OpenWhenLoaded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_RadialPicker_OpenWhenLoaded;
-                xamlMember.Setter = set_69_RadialPicker_OpenWhenLoaded;
+                xamlMember.Getter = get_95_RadialPicker_OpenWhenLoaded;
+                xamlMember.Setter = set_95_RadialPicker_OpenWhenLoaded;
                 break;
             case "Neumann.TouchControls.RadialPresenter.StrokeThickness":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StrokeThickness", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_RadialPresenter_StrokeThickness;
-                xamlMember.Setter = set_70_RadialPresenter_StrokeThickness;
+                xamlMember.Getter = get_96_RadialPresenter_StrokeThickness;
+                xamlMember.Setter = set_96_RadialPresenter_StrokeThickness;
                 break;
             case "Neumann.TouchControls.RadialPresenter.ImageSource":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_RadialPresenter_ImageSource;
-                xamlMember.Setter = set_71_RadialPresenter_ImageSource;
+                xamlMember.Getter = get_97_RadialPresenter_ImageSource;
+                xamlMember.Setter = set_97_RadialPresenter_ImageSource;
                 break;
             case "Neumann.TouchControls.RadialPresenter.IsOpen":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_RadialPresenter_IsOpen;
-                xamlMember.Setter = set_72_RadialPresenter_IsOpen;
+                xamlMember.Getter = get_98_RadialPresenter_IsOpen;
+                xamlMember.Setter = set_98_RadialPresenter_IsOpen;
                 break;
             case "Neumann.TouchControls.RadialPresenter.SelectedItem":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SelectedItem", "Neumann.TouchControls.Topic");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_RadialPresenter_SelectedItem;
-                xamlMember.Setter = set_73_RadialPresenter_SelectedItem;
+                xamlMember.Getter = get_99_RadialPresenter_SelectedItem;
+                xamlMember.Setter = set_99_RadialPresenter_SelectedItem;
                 break;
             case "Neumann.TouchControls.RadialPresenter.ItemHierarchy":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ItemHierarchy", "Neumann.TouchControls.TopicCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_RadialPresenter_ItemHierarchy;
-                xamlMember.Setter = set_74_RadialPresenter_ItemHierarchy;
+                xamlMember.Getter = get_100_RadialPresenter_ItemHierarchy;
+                xamlMember.Setter = set_100_RadialPresenter_ItemHierarchy;
                 break;
             case "Neumann.TouchControls.Topic.Name":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Topic");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_75_Topic_Name;
-                xamlMember.Setter = set_75_Topic_Name;
+                xamlMember.Getter = get_101_Topic_Name;
+                xamlMember.Setter = set_101_Topic_Name;
                 break;
             case "Neumann.TouchControls.Topic.Image":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Topic");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Image", "Windows.UI.Xaml.Media.Imaging.BitmapImage");
-                xamlMember.Getter = get_76_Topic_Image;
-                xamlMember.Setter = set_76_Topic_Image;
+                xamlMember.Getter = get_102_Topic_Image;
+                xamlMember.Setter = set_102_Topic_Image;
                 break;
             case "Neumann.TouchControls.Topic.ImagePathResourceName":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Topic");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImagePathResourceName", "String");
-                xamlMember.Getter = get_77_Topic_ImagePathResourceName;
-                xamlMember.Setter = set_77_Topic_ImagePathResourceName;
+                xamlMember.Getter = get_103_Topic_ImagePathResourceName;
+                xamlMember.Setter = set_103_Topic_ImagePathResourceName;
                 break;
             case "Neumann.TouchControls.Topic.Children":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Topic");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Children", "Neumann.TouchControls.TopicCollection");
-                xamlMember.Getter = get_78_Topic_Children;
-                xamlMember.Setter = set_78_Topic_Children;
+                xamlMember.Getter = get_104_Topic_Children;
+                xamlMember.Setter = set_104_Topic_Children;
                 break;
             case "Neumann.TouchControls.Topic.Parent":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Topic");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Parent", "Neumann.TouchControls.Topic");
-                xamlMember.Getter = get_79_Topic_Parent;
-                xamlMember.Setter = set_79_Topic_Parent;
+                xamlMember.Getter = get_105_Topic_Parent;
+                xamlMember.Setter = set_105_Topic_Parent;
                 break;
             case "Neumann.TouchControls.RadialPresenter.CenterContent":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CenterContent", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_RadialPresenter_CenterContent;
-                xamlMember.Setter = set_80_RadialPresenter_CenterContent;
+                xamlMember.Getter = get_106_RadialPresenter_CenterContent;
+                xamlMember.Setter = set_106_RadialPresenter_CenterContent;
                 break;
             case "Neumann.TouchControls.RadialPresenter.CenterContentTemplate":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenter");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CenterContentTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_81_RadialPresenter_CenterContentTemplate;
-                xamlMember.Setter = set_81_RadialPresenter_CenterContentTemplate;
-                break;
-            case "Neumann.TouchControls.CircleItemsPanel.Radius":
-                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.CircleItemsPanel");
-                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Radius", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_82_CircleItemsPanel_Radius;
-                xamlMember.Setter = set_82_CircleItemsPanel_Radius;
+                xamlMember.Getter = get_107_RadialPresenter_CenterContentTemplate;
+                xamlMember.Setter = set_107_RadialPresenter_CenterContentTemplate;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.ImageSource":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_83_RadialPresenterItem_ImageSource;
-                xamlMember.Setter = set_83_RadialPresenterItem_ImageSource;
+                xamlMember.Getter = get_108_RadialPresenterItem_ImageSource;
+                xamlMember.Setter = set_108_RadialPresenterItem_ImageSource;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.ImagePathGeometry":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImagePathGeometry", "Windows.UI.Xaml.Media.PathGeometry");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_84_RadialPresenterItem_ImagePathGeometry;
-                xamlMember.Setter = set_84_RadialPresenterItem_ImagePathGeometry;
+                xamlMember.Getter = get_109_RadialPresenterItem_ImagePathGeometry;
+                xamlMember.Setter = set_109_RadialPresenterItem_ImagePathGeometry;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.ImagePath":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "ImagePath", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_85_RadialPresenterItem_ImagePath;
-                xamlMember.Setter = set_85_RadialPresenterItem_ImagePath;
+                xamlMember.Getter = get_110_RadialPresenterItem_ImagePath;
+                xamlMember.Setter = set_110_RadialPresenterItem_ImagePath;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.StrokeThickness":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "StrokeThickness", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_86_RadialPresenterItem_StrokeThickness;
-                xamlMember.Setter = set_86_RadialPresenterItem_StrokeThickness;
+                xamlMember.Getter = get_111_RadialPresenterItem_StrokeThickness;
+                xamlMember.Setter = set_111_RadialPresenterItem_StrokeThickness;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.Command":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_87_RadialPresenterItem_Command;
-                xamlMember.Setter = set_87_RadialPresenterItem_Command;
+                xamlMember.Getter = get_112_RadialPresenterItem_Command;
+                xamlMember.Setter = set_112_RadialPresenterItem_Command;
                 break;
             case "Neumann.TouchControls.RadialPresenterItem.CommandParameter":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RadialPresenterItem");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_88_RadialPresenterItem_CommandParameter;
-                xamlMember.Setter = set_88_RadialPresenterItem_CommandParameter;
+                xamlMember.Getter = get_113_RadialPresenterItem_CommandParameter;
+                xamlMember.Setter = set_113_RadialPresenterItem_CommandParameter;
                 break;
             case "Neumann.TouchControls.RangeSlider.Minimum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RangeSlider");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Minimum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_89_RangeSlider_Minimum;
-                xamlMember.Setter = set_89_RangeSlider_Minimum;
+                xamlMember.Getter = get_114_RangeSlider_Minimum;
+                xamlMember.Setter = set_114_RangeSlider_Minimum;
                 break;
             case "Neumann.TouchControls.RangeSlider.Maximum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RangeSlider");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Maximum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_90_RangeSlider_Maximum;
-                xamlMember.Setter = set_90_RangeSlider_Maximum;
+                xamlMember.Getter = get_115_RangeSlider_Maximum;
+                xamlMember.Setter = set_115_RangeSlider_Maximum;
                 break;
             case "Neumann.TouchControls.RangeSlider.Value1":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RangeSlider");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Value1", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_91_RangeSlider_Value1;
-                xamlMember.Setter = set_91_RangeSlider_Value1;
+                xamlMember.Getter = get_116_RangeSlider_Value1;
+                xamlMember.Setter = set_116_RangeSlider_Value1;
                 break;
             case "Neumann.TouchControls.RangeSlider.Value2":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RangeSlider");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Value2", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_92_RangeSlider_Value2;
-                xamlMember.Setter = set_92_RangeSlider_Value2;
+                xamlMember.Getter = get_117_RangeSlider_Value2;
+                xamlMember.Setter = set_117_RangeSlider_Value2;
                 break;
             case "Neumann.TouchControls.RangeSlider.Range":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.RangeSlider");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Range", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_93_RangeSlider_Range;
+                xamlMember.Getter = get_118_RangeSlider_Range;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Neumann.TouchControls.Spinner.Label":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_94_Spinner_Label;
-                xamlMember.Setter = set_94_Spinner_Label;
+                xamlMember.Getter = get_119_Spinner_Label;
+                xamlMember.Setter = set_119_Spinner_Label;
                 break;
             case "Neumann.TouchControls.Spinner.LabelTemplate":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "LabelTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_95_Spinner_LabelTemplate;
-                xamlMember.Setter = set_95_Spinner_LabelTemplate;
+                xamlMember.Getter = get_120_Spinner_LabelTemplate;
+                xamlMember.Setter = set_120_Spinner_LabelTemplate;
                 break;
             case "Neumann.TouchControls.Spinner.Minimum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Minimum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_96_Spinner_Minimum;
-                xamlMember.Setter = set_96_Spinner_Minimum;
+                xamlMember.Getter = get_121_Spinner_Minimum;
+                xamlMember.Setter = set_121_Spinner_Minimum;
                 break;
             case "Neumann.TouchControls.Spinner.Maximum":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Maximum", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_97_Spinner_Maximum;
-                xamlMember.Setter = set_97_Spinner_Maximum;
+                xamlMember.Getter = get_122_Spinner_Maximum;
+                xamlMember.Setter = set_122_Spinner_Maximum;
                 break;
             case "Neumann.TouchControls.Spinner.SelectionColor":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SelectionColor", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_98_Spinner_SelectionColor;
-                xamlMember.Setter = set_98_Spinner_SelectionColor;
+                xamlMember.Getter = get_123_Spinner_SelectionColor;
+                xamlMember.Setter = set_123_Spinner_SelectionColor;
                 break;
             case "Neumann.TouchControls.Spinner.Value":
                 userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.Spinner");
                 xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "Value", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_99_Spinner_Value;
-                xamlMember.Setter = set_99_Spinner_Value;
+                xamlMember.Getter = get_124_Spinner_Value;
+                xamlMember.Setter = set_124_Spinner_Value;
+                break;
+            case "Neumann.TouchControls.ToggleButtonList.SelectedItem":
+                userType = (global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Neumann.TouchControls.ToggleButtonList");
+                xamlMember = new global::Neumann.TouchControls.Neumann_TouchControls_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_125_ToggleButtonList_SelectedItem;
+                xamlMember.Setter = set_125_ToggleButtonList_SelectedItem;
                 break;
             }
             return xamlMember;

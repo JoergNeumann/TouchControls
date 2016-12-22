@@ -1,0 +1,75 @@
+﻿<Page x:ConnectionId='1' x:Class="Demo.Views.RadialPresenterPage" x:Name="root"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="using:Demo.ViewModels"
+      xmlns:inf="using:Demo.Infrastructure"
+      xmlns:ctl="using:Neumann.TouchControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+    <Page.DataContext>
+        <vm:RadialPresenterViewModel/>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <inf:SideBarImageToImageSourceConverter x:Key="PathConverter"/>
+    </Page.Resources>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="RADIAL PRESENTER" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <Grid Grid.Row="1" Grid.Column="1" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <ctl:RadialPresenter x:ConnectionId='2' x:Name="list" Grid.Row="1" Grid.Column="1"
+                             HorizontalAlignment="Center" VerticalAlignment="Center"
+                             StrokeThickness="4" BorderBrush="#FF80397B" Background="#FFF1DAEA"
+                             Width="600" Height="600"
+                             ItemHierarchy="{Binding TopicHierarchy}">
+                <ctl:RadialPresenter.CenterContent>
+                    <StackPanel>
+                        <TextBlock Text="TOUCH" FontFamily="Segue UI Semibold" FontSize="30" FontWeight="Bold" Foreground="#FF80397B" HorizontalAlignment="Center"/>
+                        <TextBlock Text="CONTROLS" FontFamily="Segue UI Semibold" FontSize="30" FontWeight="Bold" Foreground="#FF80397B" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </ctl:RadialPresenter.CenterContent>
+
+                <ctl:RadialPresenter.ItemTemplate>
+                    <DataTemplate>
+                        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" UseLayoutRounding="False">
+                            <ctl:RadialPresenterItem FontFamily="Segoe UI Semibold" FontSize="20" UseLayoutRounding="False"
+                                                 Content="{Binding Name}"
+                                                 ImagePath="{Binding ImagePathResourceName, Converter={StaticResource PathConverter}}"
+                                                 Command="{Binding ElementName=root, Path=DataContext.SelectionCommand}">
+                            </ctl:RadialPresenterItem>
+                        </Grid>
+                    </DataTemplate>
+                </ctl:RadialPresenter.ItemTemplate>
+            </ctl:RadialPresenter>
+
+            <ToggleSwitch Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left" OnContent="Open" OffContent="Close"
+                          IsOn="{Binding ElementName=list, Path=IsOpen, Mode=TwoWay}"/>
+        </Grid>
+    </Grid>
+
+</Page>
+

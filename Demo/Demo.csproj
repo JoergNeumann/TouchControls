@@ -18,6 +18,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>Demo_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>1779E3D8A2CF339B39C734C59B632BCAE626CCBB</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -108,14 +109,29 @@
     </Compile>
     <Compile Include="Models\ModelBase.cs" />
     <Compile Include="Models\Sample.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Section.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ArrowViewModel.cs" />
+    <Compile Include="ViewModels\RadialItemsControlViewModel.cs" />
+    <Compile Include="ViewModels\FilterBarViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\RadialPresenterViewModel.cs" />
+    <Compile Include="Views\ArrowPage.xaml.cs">
+      <DependentUpon>ArrowPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ColumnViewPage.xaml.cs">
       <DependentUpon>ColumnViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FanSelectorPage.xaml.cs">
       <DependentUpon>FanSelectorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExpanderPage.xaml.cs">
+      <DependentUpon>ExpanderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\ExpanderViewModel.cs" />
+    <Compile Include="Views\RadialItemsControlPage.xaml.cs">
+      <DependentUpon>RadialItemsControlPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NumberPadPage.xaml.cs">
       <DependentUpon>NumberPadPage.xaml</DependentUpon>
@@ -131,6 +147,9 @@
     </Compile>
     <Compile Include="Views\RangeSliderPage.xaml.cs">
       <DependentUpon>RangeSliderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FilterBarPage.xaml.cs">
+      <DependentUpon>FilterBarPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SpinnerPage.xaml.cs">
       <DependentUpon>SpinnerPage.xaml</DependentUpon>
@@ -189,11 +208,53 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Styles\Symbols.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Styles\TextBlockStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Styles\ListBoxStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Styles\ToggleButtonStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Styles\SliderStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\ArrowPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ColumnViewPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\FanSelectorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ExpanderPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\RadialItemsControlPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -214,6 +275,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\RangeSliderPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FilterBarPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

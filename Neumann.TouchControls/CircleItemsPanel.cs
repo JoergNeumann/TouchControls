@@ -21,7 +21,7 @@ namespace Neumann.TouchControls
             CircleItemsPanel radialPanel = (CircleItemsPanel)dependencyObject;
             radialPanel.InvalidateArrange();
         }
-
+        
         #endregion
 
         #region Overrides

@@ -35,6 +35,42 @@ namespace Neumann.TouchControls
         }
 
         /// <summary>
+        /// Searches for child elements of the given type.
+        /// </summary>
+        /// <typeparam name="T">Type of element.</typeparam>
+        /// <param name="referenceVisual">Parent element.</param>
+        /// <param name="name">Name of the element to find.</param>
+        /// <returns>Element of given type and name, or null.</returns>
+        public static T FindChild<T>(this FrameworkElement referenceVisual, string name) where T : DependencyObject
+        {
+            var element = referenceVisual as DependencyObject;
+            var result = default(T);
+
+            if (element != null)
+            {
+                var count = VisualTreeHelper.GetChildrenCount(element);
+                for (int i = 0; i < count; i++)
+                {
+                    var childElement = VisualTreeHelper.GetChild(element, i) as FrameworkElement;
+                    if (childElement != null &&
+                        childElement.GetType().Equals(typeof(T)) &&
+                        childElement.Name == name)
+                    {
+                        result = childElement as T;
+                        break;
+                    }
+
+                    result = childElement.FindChild<T>(name);
+                    if (result != null)
+                    {
+                        break;
+                    }
+                }
+            }
+            return result;
+        }
+
+        /// <summary>
         /// Searches for a parent element of the given type.
         /// </summary>
         /// <typeparam name="T">Type of element.</typeparam>

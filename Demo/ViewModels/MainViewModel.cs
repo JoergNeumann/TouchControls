@@ -28,8 +28,12 @@ namespace Demo.ViewModels
                 new Sample { Name="Radial Menu", Category=SideBarImage.Commands, PageType = typeof(RadialMenuPage) },
                 new Sample { Name="Radial Presenter", Category=SideBarImage.Commands, PageType = typeof(RadialPresenterPage) },
                 new Sample { Name="Fan Selector", Category=SideBarImage.Commands, PageType = typeof(FanSelectorPage) },
+                new Sample { Name="Filter Bar", Category=SideBarImage.Commands, PageType = typeof(FilterBarPage) },
 
                 new Sample { Name="Miller Columns", Category=SideBarImage.Container, PageType = typeof(ColumnViewPage) },
+                new Sample { Name="Radial Items Control", Category=SideBarImage.Container, PageType = typeof(RadialItemsControlPage) },
+                new Sample { Name="Expander", Category=SideBarImage.Container, PageType = typeof(ExpanderPage) },
+                new Sample { Name="Arrow Selection", Category=SideBarImage.Container, PageType = typeof(ArrowPage) },
             };
             this.SamplesView = new CollectionViewSource() { Source = _samples }.View;
             this.CategoriesView.MoveCurrentToFirst();

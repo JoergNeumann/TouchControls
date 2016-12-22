@@ -19,8 +19,8 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="Spinner" Style="{StaticResource HeaderTextBlockStyle}"/>
-
+        
         <ctl:Spinner Grid.Row="1" Grid.Column="1" Maximum="100" Value="50" Label="Employees"
-                         VerticalAlignment="Center"/>
+                     VerticalAlignment="Center"/>
     </Grid>
 </Page>

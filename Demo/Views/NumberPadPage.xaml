@@ -20,8 +20,8 @@
 
         <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="NUMBER PAD" Style="{StaticResource HeaderTextBlockStyle}"/>
 
-        <ctl:NumberPad Grid.Row="1" Grid.Column="1"  Minimum="0" Maximum="100" SubText="Employees"
-                         VerticalAlignment="Center"/>
+        <ctl:NumberPad Grid.Row="1" Grid.Column="1" Minimum="0" Maximum="100" SubText="Employees"
+                       VerticalAlignment="Center"/>
 
     </Grid>
 </Page>

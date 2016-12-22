@@ -9,11 +9,6 @@
             <Setter.Value>
                 <ControlTemplate TargetType="local:BreadcrumbBullet">
                     <Rectangle x:Name="rect" Fill="#FF838383" Stroke="Black" StrokeThickness="0" Width="10" Height="10" Margin="0,0,10,0"/>
-                    <!--<ControlTemplate.Triggers>
-                        <Trigger Property="IsActive" Value="true">
-                            <Setter Property="Fill" Value="#FF8E499C" TargetName="rect"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>-->
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

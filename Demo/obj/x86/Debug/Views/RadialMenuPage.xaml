@@ -1,0 +1,62 @@
+﻿<Page x:Class="Demo.Views.RadialMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Demo.Views"
+      xmlns:ctl="using:Neumann.TouchControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="RADIAL MENU" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Text:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Text="{Binding ElementName=radialPicker, Path=Value, Mode=TwoWay}" Width="80" VerticalAlignment="Center"/>
+        </StackPanel>
+        
+        <ctl:RadialMenu Grid.Row="1" Grid.Column="1" Margin="200,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False">
+            <ctl:RadialMenuItem x:ConnectionId='1' Header="Picture" ImageSource="ms-appx:///Images/Picture.png"                             />
+            <ctl:RadialMenuItem x:ConnectionId='2' Header="Table" ImageSource="ms-appx:///Images/Table.png"                             />
+            <ctl:RadialMenuItem x:ConnectionId='3' Header="List" ImageSource="ms-appx:///Images/List.png"                             >
+                <ctl:RadialMenuItem x:ConnectionId='19' Header="" ImageSource="ms-appx:///Images/List1.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='20' Header="" ImageSource="ms-appx:///Images/List2.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='21' Header="" ImageSource="ms-appx:///Images/List3.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='22' Header="" ImageSource="ms-appx:///Images/List4.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='23' Header="" ImageSource="ms-appx:///Images/List5.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='24' Header="" ImageSource="ms-appx:///Images/List6.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='25' Header="" ImageSource="ms-appx:///Images/List7.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='26' Header="" ImageSource="ms-appx:///Images/List8.png"                             />
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem x:ConnectionId='4' Header="Paste" ImageSource="ms-appx:///Images/Paste.png" IsEnabled="False"                             />
+            <ctl:RadialMenuItem x:ConnectionId='5' Header="Mark" ImageSource="ms-appx:///Images/Mark.png"                             >
+                <ctl:RadialMenuItem x:ConnectionId='11' Header="Critical" ImageSource="ms-appx:///Images/Critical.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='12' Header="Contact" ImageSource="ms-appx:///Images/Contact.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='13' Header="Address" ImageSource="ms-appx:///Images/Address.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='14' Header="Phone" ImageSource="ms-appx:///Images/Phone.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='15' Header="Remove" ImageSource="ms-appx:///Images/Delete.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='16' Header="Task" ImageSource="ms-appx:///Images/Task.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='17' Header="Important" ImageSource="ms-appx:///Images/Important.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='18' Header="Question" ImageSource="ms-appx:///Images/Question.png"                             />
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem x:ConnectionId='6' Header="Undo" ImageSource="ms-appx:///Images/Undo.png"                             >
+                <ctl:RadialMenuItem x:ConnectionId='8' Header="Redo" ImageSource="ms-appx:///Images/Redo.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='9' Header="Undo" ImageSource="ms-appx:///Images/Undo.png"                             />
+                <ctl:RadialMenuItem x:ConnectionId='10' Header="Remove Format" ImageSource="ms-appx:///Images/RemoveFormat.png"                             />
+            </ctl:RadialMenuItem>
+            <ctl:RadialMenuItem x:ConnectionId='7' Header="Drawing" ImageSource="ms-appx:///Images/Draw.png"                             />
+        </ctl:RadialMenu>
+
+    </Grid>
+</Page>
+

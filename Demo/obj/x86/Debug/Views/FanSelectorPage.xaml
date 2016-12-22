@@ -1,0 +1,51 @@
+﻿<Page x:Class="Demo.Views.FanSelectorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Demo.Views"
+      xmlns:ctl="using:Neumann.TouchControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="ctl:FanControl">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="ContentStyle">
+                <Setter.Value>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="FontSize" Value="20"/>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center" Text="FAN SELECTOR" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <ctl:FanSelector Grid.Row="1" Grid.Column="1" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"
+                         BorderThickness="0" Background="Purple" IsRotatingContent="False" DisplayMode="Half" IsOpen="True">
+            <ctl:FanSelector.Fans>
+                <ctl:FanCollection>
+                    <ctl:FanControl x:ConnectionId='1' Content="Item1" Background="#FF002060" Foreground="White"                   />
+                    <ctl:FanControl x:ConnectionId='2' Content="Item2" Background="#FF204E7E" Foreground="White"                   />
+                    <ctl:FanControl x:ConnectionId='3' Content="Item3" Background="#FF126F8D" Foreground="White"                   />
+                    <ctl:FanControl x:ConnectionId='4' Content="Item4" Background="#FF0070C0" Foreground="White"                   />
+                    <ctl:FanControl x:ConnectionId='5' Content="Item5" Background="#FF1BA6D3" Foreground="White"                   />
+                    <ctl:FanControl x:ConnectionId='6' Content="Item6" Background="#FF55C5E9" Foreground="White"                   />
+                </ctl:FanCollection>
+            </ctl:FanSelector.Fans>
+        </ctl:FanSelector>
+    </Grid>
+</Page>
+

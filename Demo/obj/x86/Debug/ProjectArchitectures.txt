@@ -1,0 +1,2 @@
+D:\Projects\(Repros)\TouchControls\Demo\Demo.csproj;x86
+D:\Projects\(Repros)\TouchControls\Neumann.TouchControls\Neumann.TouchControls.csproj;neutral
